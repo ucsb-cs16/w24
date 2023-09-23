@@ -21,7 +21,7 @@ you've already done everything in Part 1.  But go through the steps to check.
 
 You should have already done this; it's described in the zyBook here:
 
-* <https://learn.zybooks.com/zybook/UCSBCMPSC16Winter2022/chapter/5/section/14>
+* <https://learn.zybooks.com/zybook/UCSBCMPSC16Fall2022/chapter/5/section/14>
 
 But if not, please do it now.
 
@@ -29,7 +29,7 @@ But if not, please do it now.
 
 You should have already done this; it's described in the zyBook here:
 
-* <https://learn.zybooks.com/zybook/UCSBCMPSC16Winter2022/chapter/5/section/15>
+* <https://learn.zybooks.com/zybook/UCSBCMPSC16Fall2022/chapter/5/section/15>
 
 But if not, please do it now.
 

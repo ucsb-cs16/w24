@@ -3,7 +3,7 @@ layout: default
 title: "UCSB CS16 W23"
 layout: default
 nav_order: 0
-description: "CMPSC 16 for Winter 2023 (Conrad)"
+description: "CMPSC 16 for Fall 2023 (Majedi)"
 ---
 
 <style>
@@ -11,7 +11,7 @@ description: "CMPSC 16 for Winter 2023 (Conrad)"
 </style>
 
 
-# CMPSC 16, Winter 2023
+# CMPSC 16, Fall 2023
 
 # Office Hours
 
