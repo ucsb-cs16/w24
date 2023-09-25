@@ -13,7 +13,7 @@ description: "CMPSC 16 for Fall 2023 (Majedi)"
 
 # CMPSC 16, Fall 2023
 
-# Office Hours
+# Office Hours and Course Calendar
 
 * For office hours held in 3525, 3526 or 2510, these refer to rooms in Phelps Hall.
 * For online office hours, the zoom room link is on the Canvas site for the course
