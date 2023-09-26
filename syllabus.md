@@ -26,7 +26,7 @@ You must contact the instructor for clarification if you receive information fro
 
 Letter Grades:
 
-* To earn a grade of A, you must an A average overall, AND 
+* To earn a grade of A, you must earn an A average overall, AND 
   - an A average in each of the four components OR 
   - your final overall average must be in the top 33% of the class
 * To earn a grade of A-, you must have at least an A- average, AND
@@ -89,7 +89,7 @@ Letter Grades:
 
 ## Required Resources
 
-The zyBook for this course is required.  Information can be found at the [textbook](/w23/textbook) link in the menu.
+The zyBook for this course is required.  Information can be found at the [textbook](/f23/textbook) link in the menu.
 
 # What this course is about <a name="about"></a>
 
