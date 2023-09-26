@@ -2,7 +2,7 @@
 layout: default
 title: "Textbook"
 description: "Information about the textbook"
-first_day: "Tuesday, January 10"
+first_day: "Monday, October 2"
 permalink: textbook
 ---
 
