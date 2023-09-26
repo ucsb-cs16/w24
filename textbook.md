@@ -24,7 +24,7 @@ Here's how to purchase:
   <img width="520" alt="image" src="https://user-images.githubusercontent.com/1119017/210282761-e3772e49-b5cf-41b4-a7bd-bd29e53eda20.png">
 
 * Then, you'll see the following:
-  <img width="265" alt="image" src="https://user-images.githubusercontent.com/1119017/210282739-2d87df61-9938-497b-ae16-d04a700bc39d.png](https://github.com/ucsb-cs16/f23/blob/main/assets/images/ZyBookPurchase.png">
+  <img width="265" alt="image" src="https://github.com/ucsb-cs16/f23/blob/main/assets/images/ZyBookPurchase.png">
 
 * As the student id number, enter your seven digit perm as numbers only (no hyphens!)
 * For your email address, use an email of the form `username@ucsb.edu`
