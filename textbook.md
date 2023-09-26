@@ -14,7 +14,7 @@ integrated with practice problems where you can immediately check
 whether you have understood what you read.
 
 It is required; there are required assignments each week starting with the first one, so you need to
-purchase it by the first day of class, {{page.first_day}}.  The cost is $77.
+purchase it by the first day of class, {{page.first_day}}.  The cost is $89.
 
 Here's how to purchase:
 
