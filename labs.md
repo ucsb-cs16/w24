@@ -13,6 +13,7 @@ Some lab assignments in the zyBook will reference particular
 labs by number from the list below.
 
 
-[{{lab.00}}]({{ lab.url | relative_url}})&mdash;{{lab.desc}}
 
-
+{% for lab in site.labs %}
+* [{{lab.num}}]({{ lab.url | relative_url}})&mdash;{{lab.desc}}
+{% endfor %}
