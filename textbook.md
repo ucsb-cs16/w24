@@ -21,8 +21,7 @@ Here's how to purchase:
 * Create an account at <https://learn.zybooks.com> using your UCSB email of the form `username@ucsb.edu`
 * You'll see the following. Enter zyBook code `UCSBCMPSC16MajediFall2023` 
 
-  <img width="520" alt="image" src="https://github.com/ucsb-cs16/f23/blob/main/assets/images/ZyBookPurchase.png">
-  <!--https://user-images.githubusercontent.com/1119017/210282761-e3772e49-b5cf-41b4-a7bd-bd29e53eda20.png"-->
+  <img width="520" alt="image" src="https://user-images.githubusercontent.com/1119017/210282761-e3772e49-b5cf-41b4-a7bd-bd29e53eda20.png">
 
 * Then, you'll see the following:
   <img width="265" alt="image" src="https://github.com/ucsb-cs16/f23/blob/main/assets/images/ZyBookPurchase.png">
