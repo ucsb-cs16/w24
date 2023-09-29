@@ -7,4 +7,4 @@ description: "CMPSC 16 for Fall 2023 (Majedi)"
 ---
 
 
-welcome to CS16 webpage. Here you can find the course material.  
+Welcome to the CS16 website. Here you can find the course material.  
