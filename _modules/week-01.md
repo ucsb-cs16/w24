@@ -6,18 +6,19 @@ Sun, Sep 30
 : [](#)
 
 Mon, Oct 2
-: 02:00pm **Class**{: .label .label-purple }
-
+: 11:00 am **Class**{: .label .label-purple }
+: Start: **PA01**{: .label .label-orange }, **CA01**{: .label .label-blue }
 Tue, Oct 3
 
-: Start: **PA01**{: .label .label-orange }, **CA01**{: .label .label-blue }
+
 
 Wed, Oct 4
-: 02:00pm **Class**{: .label .label-purple } 
-: **Lab sections**{: .label .label-purple }
+: 11:00 am **Class**{: .label .label-purple } 
+: [](#)
 
 Thu, Oct 5
-: [](#)
+
+: **Lab sections**{: .label .label-purple }
 
 Fri, Oct 6
 : [](#)
