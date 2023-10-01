@@ -9,8 +9,7 @@ Mon, Oct 2
 : 11:00 am **Class**{: .label .label-purple }
 : Start: **PA01**{: .label .label-orange }, **CA01**{: .label .label-blue }
 Tue, Oct 3
-
-
+: [](#)
 
 Wed, Oct 4
 : 11:00 am **Class**{: .label .label-purple } 
