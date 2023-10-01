@@ -17,7 +17,6 @@ Wed, Oct 4
 : [](#)
 
 Thu, Oct 5
-
 : **Lab sections**{: .label .label-purple }
 
 Fri, Oct 6
