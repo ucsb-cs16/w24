@@ -20,7 +20,7 @@ Thu, Oct 5
 : **Lab sections**{: .label .label-purple }
 
 Fri, Oct 6
-: [](#) : 2:00pm ⏰ Due: PA01{: .label .label-orange }, CA01{: .label .label-blue } 
+: [](#) 2:00pm ⏰ Due: PA01{: .label .label-orange }, CA01{: .label .label-blue } 
 
 Sat, Oct
 : [](#)
