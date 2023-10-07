@@ -20,7 +20,7 @@ Thu, Oct 12
 : **Lab sections**{: .label .label-purple }
 
 Fri, Oct 13
-: **02:00pm**  ⏰  Due: **PA01**{: .label .label-orange }, **CA01**{: .label .label-blue }
+: **02:00pm**  ⏰  Due: **PA02**{: .label .label-orange }, **CA02**{: .label .label-blue }
 
 Sat, Oct 14
 : [](#)
