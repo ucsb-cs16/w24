@@ -18,7 +18,7 @@ Wed, Oct 18
 Thu, Oct 19
 : **02:00pm**  ⏰  Due: **LA02**{: .label .label-green }
 : **Lab sections**{: .label .label-purple }
-Start: **LA03**{: .label .label-green }
+: Start: **LA03**{: .label .label-green }
 
 Fri, Oct 20
 : **02:00pm**  ⏰  Due: **PA03**{: .label .label-orange }, **CA03**{: .label .label-blue }
