@@ -18,7 +18,7 @@ Wed, Oct 4
 
 Thu, Oct 5
 : **Lab sections**{: .label .label-purple }
-Start: **LA01**{: .label .label-green }
+: Start: **LA01**{: .label .label-green }
 
 Fri, Oct 6
 : [](#) 2:00pm ⏰ Due: **PA01**{: .label .label-orange }, **CA01**{: .label .label-blue }
