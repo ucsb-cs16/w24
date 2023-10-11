@@ -204,11 +204,7 @@ be comfortable with all of the following:</p>
   <li><strong>(2) zyBooks PAs/CAs/LAs</strong>
 
     <br />The PAs/CAs/LAs in zyBooks are there to help make sure that you understood the reading, and to give you immediate practice with what you are reading.  The PAs/CAs/LAs for each
-    week should be completed by the end of that week.  There isn't 
-    a late penalty for falling behind, but if you fall behind,
-    you may find that your scores
-    are not updated in Canvas as promptly, and more importantly,
-    you may find it difficult to catch up as the material gets more
+    week should be completed by the end of that week.  Late submissions will not be considered. If you fall behind, come for help as soon as possible, as the material gets more
     challenging. 
     <br />
 <br />
