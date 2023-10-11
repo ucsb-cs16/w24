@@ -14,7 +14,7 @@ Tue, Nov 7
 : 
 
 Wed, Nov 8
-: 11:00am **Class**{: .label .label-purple } 
+: 11:00am **MIDTERM**{: .label .label-red }
 
 
 Thu, Nov 9
