@@ -20,7 +20,7 @@ Wed, Nov 15
 Thu, Nov 16
 : **2:00pm**  ⏰  Due: **LA06**{: .label .label-green }
 : **Lab sections**{: .label .label-purple }
-: Start: LA07{: .label .label-green }
+: Start: **LA07**{: .label .label-green }
 
 
 Fri, Nov 17

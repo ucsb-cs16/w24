@@ -7,7 +7,7 @@ Sun, Nov 26
 
 Mon, Nov 27
 : Start: **PA09**{: .label .label-orange }, **CA09**{: .label .label-blue }
-: Start: LA08{: .label .label-green }
+: Start: **LA08**{: .label .label-green }
 : 11:00am **Class**{: .label .label-purple }
 
 
@@ -21,7 +21,7 @@ Wed, Nov 29
 
 Thu, Nov 30
 : **Lab sections**{: .label .label-purple }
-: Start: LA09{: .label .label-green }
+: Start: **LA09**{: .label .label-green }
 
 
 Fri, Dec 1

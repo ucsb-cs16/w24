@@ -20,7 +20,7 @@ Wed, Nov 8
 Thu, Nov 9
 : **2:00pm**  ⏰  Due: **LA05**{: .label .label-green }
 : **Lab sections**{: .label .label-purple }
-: Start: LA06{: .label .label-green }
+: Start: **LA06**{: .label .label-green }
 
 
 Fri, Nov 10
