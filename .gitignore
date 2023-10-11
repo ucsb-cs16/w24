@@ -15,3 +15,7 @@ vendor/
 # Mac OS X
 
 .DS_Store
+
+#ignore gemfile settings
+Gemfile
+Gemfile.lock

@@ -66,15 +66,15 @@ topic = {
 }
 
 # These notes are replaced with the specifics for each respective week below
-class_time = "02:00pm"
-due_time = "11:59pm"
+class_time = "11:00am"
+due_time = "2:00pm"
 
-class_days = ["Tue", "Thu"]
-lab_day = "Wed"
-lab_due = "Tue"
+class_days = ["Mon", "Wed"]
+lab_day = "Thu"
+lab_due = "Thu"
 
 # NEW: Assign students to start upcoming week's PAs, CAs
-due_dates["Sun"] += f": Start: **PA**{{: .label .label-orange }}, **CA**{{: .label .label-blue }}\n"
+due_dates["Mon"] += f": Start: **PA**{{: .label .label-orange }}, **CA**{{: .label .label-blue }}\n"
 
 # Add classes/labs to the schedule
 due_dates[class_days[0]
@@ -90,7 +90,7 @@ due_dates[lab_day] += f": **Lab sections**{{: .label .label-purple }}\n"
 due_dates[lab_due] += f": **{due_time}**  ⏰  Due: **LA**{{: .label .label-green }}\n"
 
 # NEW: Deadline for prev week's PAs, CAs, Reflection. Sunday 11:59pm
-due_dates["Sat"] += f": **{due_time}**  ⏰  Due: **PA**{{: .label .label-orange }}, **CA**{{: .label .label-blue }}\n"
+due_dates["Fri"] += f": **{due_time}**  ⏰  Due: **PA**{{: .label .label-orange }}, **CA**{{: .label .label-blue }}\n"
 
 
 # Wed
@@ -114,26 +114,26 @@ admin_prompt = ': <p class="text-grey-dk-000 mb-0">'
 
 # https://registrar.sa.ucsb.edu/calendars/calendars-deadlines/academic-calendars
 holidays = {
-    (1, 16): "Martin Luther King Jr. Day",  # January 17
-    (2, 20): "Presidents' Day",  # February 21
+    (11, 10): "Veterans' Day",  # November 10
+    (11, 23): "Thanksgiving",  # November 23
     # (5, 30) : "Memorial Day", # May 30
 }
 
 # https://registrar.sa.ucsb.edu/calendars/calendars-deadlines/registration-pass-dates
 admin_dates = {
-    (2, 6): "Deadline to Drop Courses",
-    (3, 17): "Instruction Ends"
+    #(2, 6): "Deadline to Drop Courses",
+    (12, 8): "Instruction Ends"
     #    (4, 22) : "Deadline to Drop Courses",
     #    (6, 3) : "Instruction Ends"
 }
 
-start_month = 1  # jan
-start_day = 8  # jan 8 is first day of calendar
+start_month = 10  # Oct
+start_day = 1  # Oct 1 is first day of calendar
 start_week = 1
 exclude_weekends = False  # True
 include_days_of_week = True  # whether to include "Mon", "Tue" with the day
-end_month = 3
-end_day = 24  # the last day of the Final Exams (quarter ends)
+end_month = 12
+end_day = 15  # the last day of the Final Exams (quarter ends)
 
 num_days = 7
 num_weeks = 11  # stop before this week
@@ -170,7 +170,7 @@ while week < num_weeks:  # loop through the weeks
             md_file.write(
                 f'{admin_prompt}<em>{admin_dates[(month, cur_day)]}</em></p>\n\n')
         if due_dates.get(days[day]) != None:
-            if week > 1:
+            if week >= 1:
                 this_week = str(week).zfill(2)
                 last_week = str(week-1).zfill(2)
 # due_str = due_dates[days[day]].replace("PA", "PA"+this_week).replace("CA", "CA"+last_week).replace("LA", "LA"+last_week).replace("Chapter X", "Chapter "+this_week)
