@@ -2,8 +2,8 @@
 num: lab00
 ready: true
 desc: "Submitting to Gradescope"
-assigned: 2023-02-08 13:00
-due: 2023-02-14 23:59
+assigned: 2023-10-19 13:00
+due: 2023-10-26 13:59
 ---
 
 # {{page.num}}: {{page.desc}}
