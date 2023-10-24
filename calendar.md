@@ -27,7 +27,7 @@ Each week corresponds to one Chapter in the zyBook.
 We have the following course activities that need to be completed in zyBooks on a weekly basis: 
 * **PA**{: .label .label-orange }(Participation Activities), 
 * **CA**{: .label .label-blue }(Challenge Activities), 
-* **LA**{: .label .label-green }(Lab Activities).
+* **LA**{: .label .label-green }(Lab Activities including zyLabs and Gradescope assignments).
 
 All due times in our class are at **2:00PM Pacific time**.
 
