@@ -1,5 +1,5 @@
 ---
-num: lab05
+num: lab04
 ready: true
 desc: "Array lists and dynamic arrays"
 assigned: 2023-02-23 13:00
