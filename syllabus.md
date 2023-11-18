@@ -26,16 +26,7 @@ You must contact the instructor for clarification if you receive information fro
 
 Letter Grades:
 
-* To earn a grade of A, you must earn an A average overall, AND 
-  - an A average in each of the four components OR 
-  - your final overall average must be in the top 33% of the class
-* To earn a grade of A-, you must have at least an A- average, AND
-  - at least a B- average in each of the four components OR 
-  - your final overall average must be in the top 50% of the class
-* To earn a grade of B+, you must have at least an B+ average overall, and **at least a C+ average in  each of the components**.
-* To earn a grade of B, you must have at least an B+ average overall, and **at least a C average in  each of the components**.
-* To earn a grade of B-, you must have at least an B- average overall, and **at least a C- average  each of the components**.
-* To earn a grade of C, C-, D+, D or D- you need only to have that letter grade average overall (no additional criteria apply).
+* To earn a grade of A, you must earn an A average overall
 
 ## Grade assignment policy
 
