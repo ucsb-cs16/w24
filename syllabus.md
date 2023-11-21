@@ -29,10 +29,11 @@ Letter Grades:
 * To earn a grade of A, you must have an A average overall, and an A- or above on the final exam.
 * To earn a grade of A-, you must have at least an A- average overall, and at least a B- on the final exam.
 * To earn a grade of B+, you must have at least a B+ average overall, and at least a C+ on the final exam.
-* To earn a grade of B, you must have at least a B+ average overall, and at least a C on the final exam.
+* To earn a grade of B, you must have at least a B average overall, and at least a C on the final exam.
 * To earn a grade of B-, you must have at least a B- average overall, and at least a C- on the final exam.
-* To earn a grade of C+, you must have at least a B- average overall, and at least a C- on the final exam.
-* To earn a grade of C, you must have at least a C on the final.
+* To earn a grade of C+, you must have at least a C+ average overall, and at least a C- on the final exam.
+* To earn a grade of C, you must have at least a C average overall, and at least a C- on the final exam.
+* Otherwise, your average grade will be your final grade. 
   
 ## Grade assignment policy
 
