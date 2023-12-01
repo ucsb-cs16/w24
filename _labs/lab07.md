@@ -136,7 +136,7 @@ In linkedListFuncs.cpp:
         - recursiveRemoveKFromFront(list, 2) = 4
         - recursiveRemoveKFromFront(list, 1) = 3 &rarr; 4
 
-- **[20 points] recursiveElementwiseSum()**
+- **[10 points] recursiveElementwiseSum()**
   - Recursively find the elementwise sum of two linked lists
   - Given two head nodes, return the head of a **new** linked-list where each element is the sum of the corresponding element of the other two
     - if one linked-list is shorter, fill the rest of the result with elements from the other (i.e., treat the non-existent nodes as a value of zero)
@@ -145,7 +145,7 @@ In linkedListFuncs.cpp:
       - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 
         - Output: 6 &rarr; 8 &rarr; 10 &rarr; 4 
 
-- **recursiveSplice()**
+- **[10 points] recursiveSplice()**
   - This is a bonus problem; doing it is optional
   - Recursively splice together two linked lists
   - Given two linked lists, splice the two linked lists together
