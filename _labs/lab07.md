@@ -145,7 +145,7 @@ In linkedListFuncs.cpp:
       - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 
         - Output: 6 &rarr; 8 &rarr; 10 &rarr; 4 
 
-- **[BONUS: 1% Extra Credit] recursiveSplice()**
+- **recursiveSplice()**
   - This is a bonus problem; doing it is optional
   - Recursively splice together two linked lists
   - Given two linked lists, splice the two linked lists together
@@ -188,8 +188,6 @@ Submit the `strFuncs.cpp` and `linkedListFuncs.cpp` files on gradescope.
 
 Most of the points will be awarded based on gradescope automatic grading. Other points will be assigned after visual code inspection by TAs - if a function is not implemented recursively, you will receive **NOT** receive any credit for that function at all.
 
-The *recursiveSplice* function is a bonus question - note that it is intended to be difficult. Although Gradescope will be display a score out of 110, your lab is only worth 100 points - should you successfully complete the bonus and the rest of the lab, you will receive 100/100 on the lab and 1% extra credit in the course. We will manually adjust the grades afterwards.
-
 ## Gradescope Autograder
 
 <table border="1">
@@ -200,21 +198,12 @@ The *recursiveSplice* function is a bonus question - note that it is intended to
 <tr><td><p style="color:green;margin:0;padding:0;">recursiveFindKthNode()</p></td><td>[10 pts]</td></tr>
 <tr><td><p style="color:green;margin:0;padding:0;">recursiveDeleteKthNode()</p></td><td>[10 pts]</td></tr>
 <tr><td><p style="color:green;margin:0;padding:0;">recursiveRemoveKFromFront()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveElementwiseSum()</p></td><td>[20 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveSplice()</p></td><td>[1% Course Extra Credit]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveElementwiseSum()</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveSplice()</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">Git Etiquette</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">Make</p></td><td>[10 pts]</td></tr>
 </table>
 
-## Manual Grading
-
-* **Recursive Implementations:**
-1. You will receive NO credit for any function you did not implement using recursion. The points you receive from the autograder will be deducted from your final score.
-* **[20 pts] Code Comments and Coding Style:**
-1. Code Comments: comments are clear and descriptive, making the code easy to understand; the comments should be convincing that the student understands the code they've written.
-2. Code Style: code can be easily understood by humans familiar with C++; code is neatly indented and formatted; variable names choices are reasonable; code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions; code is not unnecessarily or unreasonably complex when a simpler solution is available.
-
-** If your comments or coding style is exceptionally underwhelming, you will not receive any of these points **
-
-Refer to the following style guide to learn more about good coding style: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing). If you are unsure about the quality of your code and comments, please ask a member of the course staff during section or office hours. 
 
 ## Academic Honesty
 
