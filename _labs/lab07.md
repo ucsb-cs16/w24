@@ -145,8 +145,8 @@ In linkedListFuncs.cpp:
       - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 
         - Output: 6 &rarr; 8 &rarr; 10 &rarr; 4 
 
-- **[10 points] recursiveSplice()**
-  - This is a bonus problem; doing it is optional
+- **recursiveSplice()**
+  - Doing this problem is optional
   - Recursively splice together two linked lists
   - Given two linked lists, splice the two linked lists together
     - Splice two linked lists by interweaving the nodes - the second linked list's nodes should be inserted at alternating positions into the first linked list
