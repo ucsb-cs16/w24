@@ -6,7 +6,6 @@ Sun, Jan 21
 : 
 
 Mon, Jan 22
-: Start: **PA03**{: .label .label-orange }, **CA03**{: .label .label-blue }
 : 2:00pm **Class**{: .label .label-purple }
 
 
@@ -15,7 +14,7 @@ Tue, Jan 23
 
 Wed, Jan 24
 : 2:00pm **Class**{: .label .label-purple } 
-: **11:59pm**  ⏰  Due: **LA02**{: .label .label-green }
+: **11:59pm**  ⏰  Due: **Lab02**{: .label .label-green }, **GSA01**{: .label .label-yellow }
 
 
 Thu, Jan 25

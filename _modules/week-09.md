@@ -6,7 +6,6 @@ Sun, Mar 3
 : 
 
 Mon, Mar 4
-: Start: **PA09**{: .label .label-orange }, **CA09**{: .label .label-blue }
 : 2:00pm **Class**{: .label .label-purple }
 
 
@@ -15,7 +14,7 @@ Tue, Mar 5
 
 Wed, Mar 6
 : 2:00pm **Class**{: .label .label-purple } 
-: **11:59pm**  ⏰  Due: **LA08**{: .label .label-green }
+: **11:59pm**  ⏰  Due: **GSA07**{: .label .label-yellow }
 
 
 Thu, Mar 7

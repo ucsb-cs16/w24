@@ -6,7 +6,6 @@ Sun, Feb 11
 : 
 
 Mon, Feb 12
-: Start: **PA06**{: .label .label-orange }, **CA06**{: .label .label-blue }
 : 2:00pm **Class**{: .label .label-purple }
 
 
@@ -15,7 +14,7 @@ Tue, Feb 13
 
 Wed, Feb 14
 : 2:00pm **Class**{: .label .label-purple } 
-: **11:59pm**  ⏰  Due: **LA05**{: .label .label-green }
+: **11:59pm**  ⏰  Due: **GSA04**{: .label .label-yellow }
 
 
 Thu, Feb 15
