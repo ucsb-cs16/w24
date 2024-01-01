@@ -1,5 +1,5 @@
 ---
-num: lab00
+num: gsa01
 ready: true
 desc: "Submitting to Gradescope"
 assigned: 2023-10-19 13:00

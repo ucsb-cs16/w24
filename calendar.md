@@ -24,12 +24,13 @@ Each week corresponds to one Chapter in the zyBook.
 
 "Week 1" in zyBooks is effectively Chapter 1 and so on.
 
-We have the following course activities that need to be completed in zyBooks on a weekly basis: 
+We have the following course activities that need to be completed on a weekly basis: 
 * **PA**{: .label .label-orange }(Participation Activities), 
 * **CA**{: .label .label-blue }(Challenge Activities), 
-* **LA**{: .label .label-green }(Lab Activities including zyLabs and Gradescope assignments).
+* **Lab**{: .label .label-green }(Lab Activities on zyBooks, also called zyLabs).
+* **GSA**{: .label .label-yellow }(Programming Assignments on Gradescope).
 
-All due times in our class are at **2:00PM Pacific time**.
+All due times in our class are at **11:59PM Pacific time**.
 
 
 <!--[Jump to the current week]({{ site.url }}{{ site.baseurl }}/calendar#week-1){: .btn .btn-blue }-->

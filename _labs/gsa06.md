@@ -1,5 +1,5 @@
 ---
-num: lab05
+num: gsa06
 ready: true
 desc: "Basic Classes in C++"
 assigned: 2023-02-23 13:00

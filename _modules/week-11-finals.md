@@ -6,7 +6,7 @@ Sun, Mar 17
 : [](#)
 
 Mon, Mar 18
-: [](#)
+: 4:00pm **FINAL**{: .label .label-red } 
 
 Tue, Mar 19
 : [](#)
