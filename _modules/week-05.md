@@ -2,31 +2,30 @@
 title: Week 5
 topic: Pointers, Part 1 / Streams / File I/O
 ---
-Sun, Oct 29
+Sun, Feb 4
 : 
 
-Mon, Oct 30
+Mon, Feb 5
 : Start: **PA05**{: .label .label-orange }, **CA05**{: .label .label-blue }
-: 11:00am **Class**{: .label .label-purple }
+: 2:00pm **Class**{: .label .label-purple }
 
 
-Tue, Oct 31
+Tue, Feb 6
 : 
 
-Wed, Nov 1
-: 11:00am **Class**{: .label .label-purple } 
+Wed, Feb 7
+: 2:00pm **Class**{: .label .label-purple } 
+: **11:59pm**  ⏰  Due: **LA04**{: .label .label-green }
 
 
-Thu, Nov 2
-: **2:00pm**  ⏰  Due: **LA04**{: .label .label-green }
+Thu, Feb 8
 : **Lab sections**{: .label .label-purple }
-: Start: **LA05**{: .label .label-green }
 
 
-Fri, Nov 3
-: **2:00pm**  ⏰  Due: **PA05**{: .label .label-orange }, **CA05**{: .label .label-blue }
+Fri, Feb 9
+: **11:59pm**  ⏰  Due: **PA05**{: .label .label-orange }, **CA05**{: .label .label-blue }
 
 
-Sat, Nov 4
+Sat, Feb 10
 : 
 

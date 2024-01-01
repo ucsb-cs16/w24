@@ -2,29 +2,30 @@
 title: Week 8
 topic: Classes, Part 1, Member Functions, Mutators, Accessors
 ---
-Sun, Nov 19
+Sun, Feb 25
 : 
 
-Mon, Nov 20
+Mon, Feb 26
 : Start: **PA08**{: .label .label-orange }, **CA08**{: .label .label-blue }
-: 11:00am **Class**{: .label .label-purple }
+: 2:00pm **Class**{: .label .label-purple }
 
 
-Tue, Nov 21
+Tue, Feb 27
 : 
 
-Wed, Nov 22
-: 11:00am **Class**{: .label .label-purple } 
+Wed, Feb 28
+: 2:00pm **Class**{: .label .label-purple } 
+: **11:59pm**  ⏰  Due: **LA07**{: .label .label-green }
 
 
-Thu, Nov 23
-: **Holiday (no classes)**{: .label .label-red }**Thanksgiving**
+Thu, Feb 29
+: **Lab sections**{: .label .label-purple }
 
 
-Fri, Nov 24
-: **Holiday (no classes)**{: .label .label-red }**Thanksgiving**
+Fri, Mar 1
+: **11:59pm**  ⏰  Due: **PA08**{: .label .label-orange }, **CA08**{: .label .label-blue }
 
 
-Sat, Nov 25
+Sat, Mar 2
 : 
 

@@ -2,33 +2,30 @@
 title: Week 6
 topic: Recursion
 ---
-Sun, Nov 5
+Sun, Feb 11
 : 
 
-Mon, Nov 6
+Mon, Feb 12
 : Start: **PA06**{: .label .label-orange }, **CA06**{: .label .label-blue }
-: 11:00am **Class**{: .label .label-purple }
+: 2:00pm **Class**{: .label .label-purple }
 
 
-Tue, Nov 7
+Tue, Feb 13
 : 
 
-Wed, Nov 8
-: 11:00am **MIDTERM**{: .label .label-red }
+Wed, Feb 14
+: 2:00pm **Class**{: .label .label-purple } 
+: **11:59pm**  ⏰  Due: **LA05**{: .label .label-green }
 
 
-Thu, Nov 9
-: **2:00pm**  ⏰  Due: **LA05**{: .label .label-green }
+Thu, Feb 15
 : **Lab sections**{: .label .label-purple }
-: Start: **LA06**{: .label .label-green }
 
 
-Fri, Nov 10
-: **Holiday**{: .label .label-red }**Veterans' Day**
-
-: **2:00pm**  ⏰  Due: **PA06**{: .label .label-orange }, **CA06**{: .label .label-blue }
+Fri, Feb 16
+: **11:59pm**  ⏰  Due: **PA06**{: .label .label-orange }, **CA06**{: .label .label-blue }
 
 
-Sat, Nov 11
+Sat, Feb 17
 : 
 

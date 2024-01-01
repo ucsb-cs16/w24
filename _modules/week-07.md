@@ -2,31 +2,30 @@
 title: Week 7
 topic: Introduction to struct / linked lists
 ---
-Sun, Nov 12
+Sun, Feb 18
 : 
 
-Mon, Nov 13
+Mon, Feb 19
 : Start: **PA07**{: .label .label-orange }, **CA07**{: .label .label-blue }
-: 11:00am **Class**{: .label .label-purple }
+: 2:00pm **Class**{: .label .label-purple }
 
 
-Tue, Nov 14
+Tue, Feb 20
 : 
 
-Wed, Nov 15
-: 11:00am **Class**{: .label .label-purple } 
+Wed, Feb 21
+: 2:00pm **Class**{: .label .label-purple } 
+: **11:59pm**  ⏰  Due: **LA06**{: .label .label-green }
 
 
-Thu, Nov 16
-: **2:00pm**  ⏰  Due: **LA06**{: .label .label-green }
+Thu, Feb 22
 : **Lab sections**{: .label .label-purple }
-: Start: **LA07**{: .label .label-green }
 
 
-Fri, Nov 17
-: **2:00pm**  ⏰  Due: **PA07**{: .label .label-orange }, **CA07**{: .label .label-blue }
+Fri, Feb 23
+: **11:59pm**  ⏰  Due: **PA07**{: .label .label-orange }, **CA07**{: .label .label-blue }
 
 
-Sat, Nov 18
+Sat, Feb 24
 : 
 
