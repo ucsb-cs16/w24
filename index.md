@@ -7,10 +7,11 @@ description: Lab Assignments
 
 # GradeScope Programming Assignments
 
-<!-- For a complete listing of GSA assignments, please refer to each chapter in the zyBook.
+This is the website for Gradescope Programming Assignments, you will find all lab instructions
+in the navbar on the left once they are released.
 
-Some GSA assignments in the zyBook will reference particular
-labs by number from the list below. -->
+For more information about this course, please go to our canvas page:
+[https://ucsb.instructure.com/courses/17475](https://ucsb.instructure.com/courses/17475)
 
 
 {% for lab in site.labs %}

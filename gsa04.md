@@ -8,7 +8,7 @@ assigned: 2023-11-09 14:00
 due: 2023-11-16 14:00
 ---
 
-# {{page.num}} - {{page.desc}}
+# {{page.title}} - {{page.desc}}
 
 
 # Collaboration policy

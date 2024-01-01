@@ -10,7 +10,7 @@ lecture_reference: "Lecture on 02.16"
 lecture_code_link: https://github.com/ucsb-cs16-f23/LECTURES/tree/main/02.16 
 ---
 
-# {{page.num}} - {{page.desc}}
+# {{page.title}} - {{page.desc}}
 
 ## Collaboration policy
 This lab must be completed individually (and not with a pair partner).

@@ -7,6 +7,8 @@ starter_url: https://github.com/ucsb-cs16-f23/STARTER-lab01
 starter_remote: git@github.com:ucsb-cs16-f23/STARTER-lab01.git
 ---
 
+# {{page.title}} - {{page.desc}}
+
 # Collaboration policy 
 * This lab must be completed individually
 

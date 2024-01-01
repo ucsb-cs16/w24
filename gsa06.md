@@ -7,7 +7,7 @@ assigned: 2023-03-01 13:00
 due: 2023-03-17 23:59
 ---
 
-# {{page.num}} - {{page.desc}}
+# {{page.title}} - {{page.desc}}
 
 ## Goals of this lab
 
