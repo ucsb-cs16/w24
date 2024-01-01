@@ -178,8 +178,8 @@ be comfortable with all of the following:</p>
 <p>The same is true of programming. Programming is not a series of facts to be memorized—you cannot &quot;cram&quot; for a computer science exam. You must practice, practice, practice.</p>
 
 
-## Course policies <a name="policies"></a>
-
+# Communucation policies <a name="policies"></a>
+Please refrain from contacting teaching team members via email. For all communications, kindly use Piazza. When posting, ensure your private posts are visible to all instructors, rather than addressed to specific teaching team members. This helps maintain efficient and organized communication.
 
 # Course components <a name="moreabout"></a>
 
