@@ -1,5 +1,7 @@
 ---
-num: gsa03
+layout: page
+title: GSA 03
+nav_order: 4
 ready: true
 desc: "Odds and primes: Fun with arrays and makefiles"
 assigned: 2023-02-16 13:00

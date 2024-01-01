@@ -1,6 +1,7 @@
 ---
-num: gsa08
-ready: true
+layout: page
+title: GSA 08
+nav_order: 9
 desc: "Basic Classes in C++"
 assigned: 2023-02-23 13:00
 due: 2023-03-08 23:59

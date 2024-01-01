@@ -1,9 +1,8 @@
 ---
+layout: page
+title: GSA 02
+nav_order: 3
 desc: 'ASCII Art: Logical operators'
-assigned: 2023-10-26 14:00
-due: 2023-11-02 14:00
-num: gsa02
-ready: true
 starter_url: https://github.com/ucsb-cs16-f23/STARTER-lab01
 starter_remote: git@github.com:ucsb-cs16-f23/STARTER-lab01.git
 ---

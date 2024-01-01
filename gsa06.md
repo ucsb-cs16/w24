@@ -1,6 +1,7 @@
 ---
-num: gsa06
-ready: true
+layout: page
+title: GSA 06
+nav_order: 7
 desc: "Recursion"
 assigned: 2023-03-01 13:00
 due: 2023-03-17 23:59

@@ -1,11 +1,11 @@
 ---
 layout: page
 title: GSA 01
-nav_order: 9
-description: Submitting to Gradescope
+nav_order: 2
+desc: Submitting to Gradescope
 ---
 
-# {{page.num}}: {{page.desc}}
+# {{page.title}}: {{page.desc}}
 
 ## Introduction
 
