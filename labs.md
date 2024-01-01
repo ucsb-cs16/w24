@@ -22,6 +22,6 @@ Please make sure the code you submit follows the formatting guide below, and we 
 review your format as a part of our grading.
 
 <embed src= 
-"/assets/pdfs/formatting-guide.pdf" 
+"assets/pdfs/formatting-guide.pdf" 
                width="800"
                   height="500"> 
