@@ -19,21 +19,10 @@ You must contact the instructor for clarification if you receive information fro
 
 ## Grade breakdown by evaluation component
 
-* zyBooks Assignments: 25% 
-* Gradescope assignments: 25%
-* Midterm Exam: 25%
-* Final Examination : 25%
-
-Letter Grades:
-
-* To earn a grade of A, you must have an A average overall, and an A- or above on the final exam.
-* To earn a grade of A-, you must have at least an A- average overall, and at least a B- on the final exam.
-* To earn a grade of B+, you must have at least a B+ average overall, and at least a C+ on the final exam.
-* To earn a grade of B, you must have at least a B average overall, and at least a C on the final exam.
-* To earn a grade of B-, you must have at least a B- average overall, and at least a C- on the final exam.
-* To earn a grade of C+, you must have at least a C+ average overall, and at least a C- on the final exam.
-* To earn a grade of C, you must have at least a C average overall, and at least a C- on the final exam.
-* Otherwise, your average grade will be your final grade. 
+* zyBooks Assignments: 15% 
+* Gradescope assignments: 15%
+* Midterm Exam: 35%
+* Final Examination : 35% 
   
 ## Grade assignment policy
 
@@ -76,7 +65,7 @@ Letter Grades:
     <td>Below 60</td>
 </table>
 
-<p><strong>Curving: </strong>The grade  scale above represents the <em>minimum</em> letter grade you will be assigned&#8212;at the instructor's discretion, the grading scale  may be altered <em>in the students' favor</em> if this will better reflect the students' mastery of the material. Thus, <em>if</em> there is a &quot;curve&quot;, it will be applied at the <em>end</em>, not to individual assignments.</p>
+<p><strong>Curving: </strong>The grade  scale above represents the <em>minimum</em> letter grade you will be assigned&#8212;at the instructor's discretion, and depending on the students' mastery of the material, <em>if</em> there is a &quot;curve&quot;, it will be applied at the <em>end</em>, not to individual assignments.</p>
 <p><strong>A+ grades: </strong>These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)</p>
 
 <p><strong><em>Everything</em> is cumulative—that's just how CS is.</strong></p>
@@ -87,7 +76,7 @@ Letter Grades:
 
 ## Required Resources
 
-The zyBook for this course is required.  Information can be found at the [textbook](/f23/textbook) link in the menu.
+The zyBook for this course is required.  Information can be found at the [textbook](/w24/textbook) link in the menu.
 
 # What this course is about <a name="about"></a>
 
@@ -196,20 +185,17 @@ be comfortable with all of the following:</p>
 
 <p>There are five components to this course, each of which has a special job to do:</p>
 <ul>
-  <li><strong>(1) Reading</strong>—Between each class, you'll have reading to do in the textbook. There is too much information you need to learn in this course for you to get all of it in lecture, so the readings are essential.  I'll be updating the zyBook so that the readings for each week are clearly labelled with the week in which they should be completed.<br />
+  <li><strong>(1) Reading</strong>—Between each class, you'll have reading to do in the textbook. There is too much information you need to learn in this course for you to get all of it in lecture, so the readings are essential.<br />
     <br />
   </li>
-  <li><strong>(2) zyBooks PAs/CAs/LAs</strong>
+  <li><strong>(2) zyBooks PAs/CAs/Labs</strong>
 
-    <br />The PAs/CAs/LAs in zyBooks are there to help make sure that you understood the reading, and to give you immediate practice with what you are reading.  The PAs/CAs/LAs for each
-    week should be completed by the end of that week.  Late submissions will not be considered. If you fall behind, come for help as soon as possible, as the material gets more
-    challenging. 
+    <br />The PAs/CAs/Labs in zyBooks are there to help make sure that you understood the reading, and to give you immediate practice with what you are reading.  The PAs/CAs, also called zyBooks activities, for each week should be completed by the end of Friday that week. Late submissions will not be considered. If you fall behind, come for help as soon as possible, as the material gets more challenging. 
     <br />
 <br />
   </li>
 
-  <li><strong>(3) Programming Assignments (Labs)</strong>—Programming assignments (also called labs) are given once a week, and are typically assigned every Wednesday in your lab
-  sessions. You may work on them during closed labs and plan to finish the assignment on your own time outside of lab. You should however, read the assignment and attempt the parts that you *can* do with little assistance as soon as the assignment is released. The assumption is that you at the very least read the assignment during your lab section. When permitted, you are encouraged to use pair programming, but please read the collaboration policy for each lab. Some labs have to be completed individually.<br />
+  <li><strong>(3) Programming Assignments</strong> — Programming assignments are given once a week. You may work on them during closed labs and plan to finish the assignment on your own time outside of lab. You should however, read the assignment and attempt the parts that you *can* do with little assistance as soon as the assignment is released. <br />
     <br />
   </li>
   <li><strong>(4) Lectures</strong>—Learning is something that you do as a student, not something that is &quot;done to you&quot; by a teacher. Therefore most of the learning you will do in this course takes place when you are actively involved in doing something challenging (i.e., during the homework assignments and labs). Most of the information you will need to do those assignments will come from the reading. <br />
@@ -228,7 +214,7 @@ be comfortable with all of the following:</p>
         </ul>
   </li>
 
-<li><strong>(5) Exams</strong>&mdash;There are two exams in this course— a midterm and a final. No makeups will be given for the final exam. Please make sure that you have no conflicts with the final if you are taking this course.</li>
+<li><strong>(5) Exams</strong>&mdash;There are two exams in this course— a midterm and a final. No makeups will be given for neither exams. Please make sure that you have no conflicts with the final if you are taking this course.</li>
 
 
 
