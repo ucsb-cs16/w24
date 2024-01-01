@@ -1,9 +1,8 @@
 ---
-num: gsa01
-ready: true
-desc: "Submitting to Gradescope"
-assigned: 2023-10-19 13:00
-due: 2023-10-26 13:59
+layout: page
+title: GSA 01
+nav_order: 9
+description: Submitting to Gradescope
 ---
 
 # {{page.num}}: {{page.desc}}
