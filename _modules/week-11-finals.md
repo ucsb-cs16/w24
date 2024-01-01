@@ -2,23 +2,23 @@
 title: Finals Week
 topic: ""
 ---
-Sun, Dec 10
+Sun, Mar 17
 : [](#)
 
-Mon, Dec 11
+Mon, Mar 18
+: 4:00pm **FINAL**{: .label .label-red } 
+
+Tue, Mar 19
 : [](#)
 
-Tue, Dec 12
+Wed, Mar 20
 : [](#)
 
-Wed, Dec 13
+Thu, Mar 21
 : [](#)
 
-Thu, Dec 14
+Fri, Mar 22
 : [](#)
 
-Fri, Dec 15
-: [](#)
-
-Sat, Dec 16
+Sat, Mar 23
 : [](#)

@@ -1,5 +1,5 @@
 ---
-num: lab06
+num: gsa07
 ready: true
 desc: "Linked Lists in C++ with structs"
 assigned: 2023-03-01 13:00

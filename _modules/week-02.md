@@ -1,31 +1,30 @@
 ---
 title: Week 2
-topic: Variables / Assignments / Loops (part 1)
+topic: Functions (part 1) / Branches
 ---
-Sun, Oct 8
+Sun, Jan 14
 : 
 
-Mon, Oct 9
-: Start: **PA02**{: .label .label-orange }, **CA02**{: .label .label-blue }
-: 11:00am **Class**{: .label .label-purple }
+Mon, Jan 15
+: 2:00pm **Class**{: .label .label-purple }
 
 
-Tue, Oct 10
+Tue, Jan 16
 : 
 
-Wed, Oct 11
-: 11:00am **Class**{: .label .label-purple } 
+Wed, Jan 17
+: 2:00pm **Class**{: .label .label-purple } 
+: **11:59pm**  ⏰  Due: **Lab01**{: .label .label-green }
 
 
-Thu, Oct 12
-: **2:00pm**  ⏰  Due: **LA01**{: .label .label-green }
+Thu, Jan 18
 : **Lab sections**{: .label .label-purple }
-: Start: **LA02**{: .label .label-green }
-
-Fri, Oct 13
-: **2:00pm**  ⏰  Due: **PA02**{: .label .label-orange }, **CA02**{: .label .label-blue }
 
 
-Sat, Oct 14
+Fri, Jan 19
+: **11:59pm**  ⏰  Due: **PA02**{: .label .label-orange }, **CA02**{: .label .label-blue }
+
+
+Sat, Jan 20
 : 
 

@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab03
+num: gsa04
 ready: true
 desc: "Fun with shapes: Pointers and Structs"
 assigned: 2023-11-09 14:00

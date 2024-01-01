@@ -1,5 +1,5 @@
 ---
-num: lab07
+num: gsa06
 ready: true
 desc: "Recursion"
 assigned: 2023-03-01 13:00

@@ -1,5 +1,5 @@
 ---
-num: lab02
+num: gsa03
 ready: true
 desc: "Odds and primes: Fun with arrays and makefiles"
 assigned: 2023-02-16 13:00

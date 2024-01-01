@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Labs
+title: GS Assignments
 nav_order: 9
 description: Lab Assignments
 ---
 
-# Labs
+# GradeScope Programming Assignments
 
-For a complete listing of lab assignments, please refer to each chapter in the zyBook.
+<!-- For a complete listing of GSA assignments, please refer to each chapter in the zyBook.
 
-Some lab assignments in the zyBook will reference particular
-labs by number from the list below.
+Some GSA assignments in the zyBook will reference particular
+labs by number from the list below. -->
 
 
 {% for lab in site.labs %}
