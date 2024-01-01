@@ -1,6 +1,6 @@
 ---
 title: Week 6
-topic: Recursion
+topic: Midterm
 ---
 Sun, Feb 11
 : 
@@ -13,7 +13,7 @@ Tue, Feb 13
 : 
 
 Wed, Feb 14
-: 2:00pm **Class**{: .label .label-purple } 
+: 2:00pm **MIDTERM**{: .label .label-red } 
 : **11:59pm**  ⏰  Due: **GSA04**{: .label .label-yellow }
 
 

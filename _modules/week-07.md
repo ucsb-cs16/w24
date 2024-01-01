@@ -1,6 +1,6 @@
 ---
 title: Week 7
-topic: Introduction to struct / linked lists
+topic: Recursion, size_t, error handing, push_back
 ---
 Sun, Feb 18
 : 

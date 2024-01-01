@@ -1,6 +1,6 @@
 ---
 title: Week 2
-topic: Variables / Assignments / Loops (part 1)
+topic: Functions (part 1) / Branches
 ---
 Sun, Jan 14
 : 

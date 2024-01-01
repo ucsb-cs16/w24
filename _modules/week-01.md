@@ -1,6 +1,6 @@
 ---
 title: Week 1
-topic: Introduction to C++
+topic: Introduction to C++ / Variables / Assignments
 ---
 Sun, Jan 7
 : 

@@ -1,6 +1,6 @@
 ---
 title: Week 10
-topic: Pointers, Part 2
+topic: Review
 ---
 Sun, Mar 10
 : 

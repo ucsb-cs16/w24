@@ -1,6 +1,6 @@
 ---
 title: Week 8
-topic: Classes, Part 1, Member Functions, Mutators, Accessors
+topic: Introduction to struct
 ---
 Sun, Feb 25
 : 

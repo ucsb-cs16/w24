@@ -1,6 +1,6 @@
 ---
 title: Week 5
-topic: Pointers, Part 1 / Streams / File I/O
+topic: Pointers / Streams / File I/O
 ---
 Sun, Feb 4
 : 

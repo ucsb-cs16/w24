@@ -1,6 +1,6 @@
 ---
 title: Week 3
-topic: Loops (part 2) / Arrays / Vectors
+topic: Loops (part 1) / Arrays / Vectors
 ---
 Sun, Jan 21
 : 

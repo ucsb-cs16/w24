@@ -1,6 +1,6 @@
 ---
 title: Week 9
-topic: Classes, Part 2, Constructors
+topic: Classes, Member Functions, Mutators, Accessors
 ---
 Sun, Mar 3
 : 

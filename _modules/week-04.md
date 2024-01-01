@@ -1,6 +1,6 @@
 ---
 title: Week 4
-topic: Branches/ Functions part 2
+topic: Loops (part 2) / Functions (part 2)
 ---
 Sun, Jan 28
 : 
