@@ -1,30 +1,29 @@
 ---
 title: Week 1
-topic: Introduction to C++
+topic: Introduction to C++ / Variables / Assignments
 ---
-Sun, Oct 1
+Sun, Jan 7
 : 
 
-Mon, Oct 2
-: Start: **PA01**{: .label .label-orange }, **CA01**{: .label .label-blue }
-: 11:00am **Class**{: .label .label-purple }
+Mon, Jan 8
+: 2:00pm **Class**{: .label .label-purple }
 
 
-Tue, Oct 3
+Tue, Jan 9
 : 
 
-Wed, Oct 4
-: 11:00am **Class**{: .label .label-purple } 
+Wed, Jan 10
+: 2:00pm **Class**{: .label .label-purple } 
 
 
-Thu, Oct 5
+Thu, Jan 11
 : **Lab sections**{: .label .label-purple }
 
 
-Fri, Oct 6
-: **2:00pm**  ⏰  Due: **PA01**{: .label .label-orange }, **CA01**{: .label .label-blue }
+Fri, Jan 12
+: **11:59pm**  ⏰  Due: **PA01**{: .label .label-orange }, **CA01**{: .label .label-blue }
 
 
-Sat, Oct 7
+Sat, Jan 13
 : 
 

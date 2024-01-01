@@ -9,7 +9,7 @@
 
 months = {
     1: 31,
-    2: 28,  # unless it's a leap year
+    2: 29,  # unless it's a leap year
     3: 31,
     4: 30,
     5: 31,
@@ -66,12 +66,12 @@ topic = {
 }
 
 # These notes are replaced with the specifics for each respective week below
-class_time = "11:00am"
-due_time = "2:00pm"
+class_time = "2:00pm"
+due_time = "11:59pm"
 
 class_days = ["Mon", "Wed"]
 lab_day = "Thu"
-lab_due = "Thu"
+lab_due = "Wed"
 
 # NEW: Assign students to start upcoming week's PAs, CAs
 due_dates["Mon"] += f": Start: **PA**{{: .label .label-orange }}, **CA**{{: .label .label-blue }}\n"
@@ -127,13 +127,13 @@ admin_dates = {
     #    (6, 3) : "Instruction Ends"
 }
 
-start_month = 10  # Oct
-start_day = 1  # Oct 1 is first day of calendar
+start_month = 1  # Oct
+start_day = 7  # Oct 1 is first day of calendar
 start_week = 1
 exclude_weekends = False  # True
 include_days_of_week = True  # whether to include "Mon", "Tue" with the day
-end_month = 12
-end_day = 15  # the last day of the Final Exams (quarter ends)
+end_month = 3
+end_day = 23  # the last day of the Final Exams (quarter ends)
 
 num_days = 7
 num_weeks = 11  # stop before this week

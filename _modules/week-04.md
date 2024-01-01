@@ -1,32 +1,30 @@
 ---
 title: Week 4
-topic: Branches/ Functions part 2
+topic: Loops (part 2) / Functions (part 2)
 ---
-Sun, Oct 22
+Sun, Jan 28
 : 
 
-Mon, Oct 23
-: Start: **PA04**{: .label .label-orange }, **CA04**{: .label .label-blue }
-: 11:00am **Class**{: .label .label-purple }
+Mon, Jan 29
+: 2:00pm **Class**{: .label .label-purple }
 
 
-Tue, Oct 24
+Tue, Jan 30
 : 
 
-Wed, Oct 25
-: 11:00am **Class**{: .label .label-purple } 
+Wed, Jan 31
+: 2:00pm **Class**{: .label .label-purple } 
+: **11:59pm**  ⏰  Due: **Lab03**{: .label .label-green }, **GSA02**{: .label .label-yellow }
 
 
-Thu, Oct 26
-: **2:00pm**  ⏰  Due: **LA03**{: .label .label-green }
+Thu, Feb 1
 : **Lab sections**{: .label .label-purple }
-: Start: **LA04**{: .label .label-green }
 
 
-Fri, Oct 27
-: **2:00pm**  ⏰  Due: **PA04**{: .label .label-orange }, **CA04**{: .label .label-blue }
+Fri, Feb 2
+: **11:59pm**  ⏰  Due: **PA04**{: .label .label-orange }, **CA04**{: .label .label-blue }
 
 
-Sat, Oct 28
+Sat, Feb 3
 : 
 
