@@ -10,7 +10,7 @@ description: Listing of course topics and due dates.
 </style>
 
 
-# CMPSC 16, Fall 2023
+# CMPSC 16, Winter 2024
 
 # Office Hours and Course Calendar
 

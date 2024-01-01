@@ -2,7 +2,7 @@
 layout: default
 title: "Textbook"
 description: "Information about the textbook"
-first_day: "Monday, October 2"
+first_day: "Monday, January 8"
 permalink: textbook
 ---
 
@@ -19,12 +19,12 @@ purchase it by the first day of class, {{page.first_day}}.  The cost is $89.
 Here's how to purchase:
 
 * Create an account at <https://learn.zybooks.com> using your UCSB email of the form `username@ucsb.edu`
-* You'll see the following. Enter zyBook code `UCSBCMPSC16MajediFall2023` 
+* You'll see the following. Enter zyBook code `UCSBCMPSC16MajediWinter2024` 
 
   <img width="520" alt="image" src="https://user-images.githubusercontent.com/1119017/210282761-e3772e49-b5cf-41b4-a7bd-bd29e53eda20.png">
 
-* Then, you'll see the following:
-  <img width="265" alt="image" src="https://raw.githubusercontent.com/ucsb-cs16/f23/main/assets/images/ZyBookPurchase.png">
+* Then, you'll see the following: <br />
+  <img width="265" alt="image" src="https://raw.githubusercontent.com/ucsb-cs16/w24/main/assets/images/ZyBookPurchase.png">
 
 * As the student id number, enter your seven digit perm as numbers only (no hyphens!)
 * For your email address, use an email of the form `username@ucsb.edu`

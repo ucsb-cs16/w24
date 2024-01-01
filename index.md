@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "UCSB CS16 F23"
+title: "UCSB CS16 W24"
 layout: default
 nav_order: 0
-description: "CMPSC 16 for Fall 2023 (Majedi)"
+description: "CMPSC 16 for Winter 2024 (Majedi)"
 ---
 
 
