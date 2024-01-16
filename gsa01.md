@@ -39,7 +39,7 @@ In order to continue with the lab, you need to be a member of the GitHub organiz
 
 * Bring up the web page: <https://github.com> and login to your GitHub account.
 * Then, in the same browser window, navigate to <https://github.com/ucsb-cs16-w24>.   Then go to the tab that says `People`, and under that tab, search for your own name (or GitHub id).  You should be able to see the members of the organization, and your name should appear in that list.
-  * If you are not able to see the `People` tab, or your name does not appear in the list, look at the top of the page for <https://github.com/ucsb-cs16-w24> and see if you find an invitation to the organization that you haven't accepted yet.  If that appears, please click to accept the invitation to the organization.  After doing this, one of the staff will need to create your lab02 repository, so ask for assistance.
+  * If you are not able to see the `People` tab, or your name does not appear in the list, look at the top of the page for <https://github.com/ucsb-cs16-w24> and see if you find an invitation to the organization that you haven't accepted yet.  If that appears, please click to accept the invitation to the organization.  After doing this, one of the staff will need to create your gsa01 repository, so ask for assistance.
 * Assuming you got this far, look under the tab for repositories.  You should see a listing for a repository called `gsa01-YOUR-GITHUB-USERNAME` where `YOUR-GITHUB-USERNAME` is your GitHub username (for example `gsa01-cgaucho`).
   * If you don't see a `gsa01-YOUR-GITHUB-USERNAME` repo, then ask a staff member for assistance.
 
@@ -176,15 +176,15 @@ As you can see, there are two buttons, labelled HTTPS and SSH.  Try clicking on 
 
 | When you click this button | Then the URL should look like this | Which one do we want? |
 |----------------------------|------------------------------------|-----------------------|
-| `HTTPS` | `https://github.com/ucsb-cs16-f23/gsa01-AvishekDe.git` | <span>NOT this</span>{: .label .label-red } | 
-| `SSH`   |  `git@github.com:ucsb-cs16-f23/gsa01-AvishekDe.git` | <span>THIS</span>{: .label .label-green }  |
+| `HTTPS` | `https://github.com/ucsb-cs16-w24/gsa01-AvishekDe.git` | <span>NOT this</span>{: .label .label-red } | 
+| `SSH`   |  `git@github.com:ucsb-cs16-w24/gsa01-AvishekDe.git` | <span>THIS</span>{: .label .label-green }  |
 
 Be sure that you click the SSH button and that your URL starts with `git@github.com` and ends with `gsa01-YOUR-GITHUB-USERNAME` (e.g. `gsa01-cgaucho`) before proceeding.
 
 Next, copy the URL that starts with `git@github.com` from the box.  We are going to type `git clone` at the command line (still inside your `cs16` directory) and then paste this URL, so that command looks like this:
 
 ```
-$ git clone git@github.com:ucsb-cs16-f23/gsa01-YOUR-GITHUB-USERNAME.git
+$ git clone git@github.com:ucsb-cs16-w24/gsa01-YOUR-GITHUB-USERNAME.git
 ```
 
 The first time you connect, you might see output like this (it may not look precisely the same, but similar):
@@ -208,7 +208,7 @@ Please answer `yes`, and after that you won't see this message again. (This adds
 After you do that, you should see output such as this:
 
 ```
-[pconrad@csilvm-03 cs16]$ git clone git@github.com:ucsb-cs16-f23/gsa01-YOUR-GITHUB-ID
+[pconrad@csilvm-03 cs16]$ git clone git@github.com:ucsb-cs16-w24/gsa01-YOUR-GITHUB-ID
 Cloning into 'gsa01-YOUR-GITHUB-ID'...
 warning: You appear to have cloned an empty repository.
 ```
