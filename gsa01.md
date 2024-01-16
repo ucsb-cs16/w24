@@ -18,30 +18,30 @@ you've already done everything in Part 1.  But go through the steps to check.
 
 ## Step 1: Add yourself to the GitHub organization
 
-You should have already done this; it's described in the zyBook here:
+You should have already done this; it's described in last week's section slides:
 
-* <https://learn.zybooks.com/zybook/UCSBCMPSC16MajediFall2023/chapter/2/section/39>
+* <https://ucsb.instructure.com/courses/17475/files/2094885>
 
 But if not, please do it now.
 
 ## Step 2: Create a CoE (ECI/CSIL) account if you don't have one already
 
-You should have already done this; it's described in the zyBook here:
+You should have already done this; it's described in last week's section slides:
 
-* <https://learn.zybooks.com/zybook/UCSBCMPSC16MajediFall2023/chapter/2/section/40>
+* <https://ucsb.instructure.com/courses/17475/files/2094885>
 
 But if not, please do it now.
 
 
-## Step 3: Check that you are in the GitHub Org and have a `lab00-YOUR-GITHUB-USERNAME` repo.
+## Step 3: Check that you are in the GitHub Org and have a gsa01-YOUR-GITHUB-USERNAME repo.
 
-In order to continue with the lab, you need to be a member of the GitHub organization, and you need to have a lab00 repo.
+In order to continue with the lab, you need to be a member of the GitHub organization, and you need to have a gsa01 repo.
 
 * Bring up the web page: <https://github.com> and login to your GitHub account.
-* Then, in the same browser window, navigate to <https://github.com/ucsb-cs16-f23>.   Then go to the tab that says `People`, and under that tab, search for your own name (or GitHub id).  You should be able to see the members of the organization, and your name should appear in that list.
-  * If you are not able to see the `People` tab, or your name does not appear in the list, look at the top of the page for <https://github.com/ucsb-cs16-f23> and see if you find an invitation to the organization that you haven't accepted yet.  If that appears, please click to accept the invitation to the organization.  After doing this, one of the staff will need to create your lab02 repository, so ask for assistance.
-* Assuming you got this far, look under the tab for repositories.  You should see a listing for a repository called `lab00-YOUR-GITHUB-USERNAME` where `YOUR-GITHUB-USERNAME` is your GitHub username (for example `lab00-cgaucho`).
-  * If you don't see a `lab00-YOUR-GITHUB-USERNAME` repo, then ask a staff member for assistance.
+* Then, in the same browser window, navigate to <https://github.com/ucsb-cs16-w24>.   Then go to the tab that says `People`, and under that tab, search for your own name (or GitHub id).  You should be able to see the members of the organization, and your name should appear in that list.
+  * If you are not able to see the `People` tab, or your name does not appear in the list, look at the top of the page for <https://github.com/ucsb-cs16-w24> and see if you find an invitation to the organization that you haven't accepted yet.  If that appears, please click to accept the invitation to the organization.  After doing this, one of the staff will need to create your gsa01 repository, so ask for assistance.
+* Assuming you got this far, look under the tab for repositories.  You should see a listing for a repository called `gsa01-YOUR-GITHUB-USERNAME` where `YOUR-GITHUB-USERNAME` is your GitHub username (for example `gsa01-cgaucho`).
+  * If you don't see a `gsa01-YOUR-GITHUB-USERNAME` repo, then ask a staff member for assistance.
 
 ## Step 4: Get setup with gradescope
 
@@ -51,9 +51,9 @@ You should have received an email notification with instructions about logging i
 Once you follow the instructions to set your password, you should have access to our course on Gradescope. 
 
 * You should see "CMPSC 16" in your courses for this quarter.
-* The lab assignment `lab00` should appear in your Gradescope dashboard under CMPSC 16.  You'll be submitting your assignment using Gradescope this week.
+* The lab assignment `gsa01` should appear in your Gradescope dashboard under CMPSC 16.  You'll be submitting your assignment using Gradescope this week.
 
-If you don't have `CMPSC 16` and `lab00` on Gradescope, please contact the staff for assistance.
+If you don't have `CMPSC 16` and `gsa01` on Gradescope, please contact the staff for assistance.
 
 That's it for preliminaries!   If everything above is sorted, we're ready to get started.
 
@@ -158,14 +158,14 @@ $ pwd
 $
 ```
 
-## Step 8: Clone your lab00 repo
+## Step 8: Clone your gsa01 repo
 
-Next, open a web browser to <https://github.com/ucsb-cs16-f23> and if you are not already logged in, login to GitHub.
+Next, open a web browser to <https://github.com/ucsb-cs16-w24> and if you are not already logged in, login to GitHub.
 
-Under the repositories tab, you should see a repo called `lab00-YOUR-GITHUB-USERNAME`, for example `lab00-cgaucho`.
+Under the repositories tab, you should see a repo called `gsa01-YOUR-GITHUB-USERNAME`, for example `gsa01-cgaucho`.
 
 Navigate to the page for this repo.  The URL will be something like this: 
-* <https://github.com/ucsb-cs16-f23/lab00-cgaucho>
+* <https://github.com/ucsb-cs16-w24/gsa01-cgaucho>
 
 On that page, you'll see something like this (in this image, the user is `Avishek-De`, one of the TAs for CS16 in F21.  In your case,
 the text `Avishek-De` should be replaced with your GitHub id.)
@@ -176,15 +176,15 @@ As you can see, there are two buttons, labelled HTTPS and SSH.  Try clicking on 
 
 | When you click this button | Then the URL should look like this | Which one do we want? |
 |----------------------------|------------------------------------|-----------------------|
-| `HTTPS` | `https://github.com/ucsb-cs16-f23/lab00-AvishekDe.git` | <span>NOT this</span>{: .label .label-red } | 
-| `SSH`   |  `git@github.com:ucsb-cs16-f23/lab00-AvishekDe.git` | <span>THIS</span>{: .label .label-green }  |
+| `HTTPS` | `https://github.com/ucsb-cs16-w24/gsa01-AvishekDe.git` | <span>NOT this</span>{: .label .label-red } | 
+| `SSH`   |  `git@github.com:ucsb-cs16-w24/gsa01-AvishekDe.git` | <span>THIS</span>{: .label .label-green }  |
 
-Be sure that you click the SSH button and that your URL starts with `git@github.com` and ends with `lab00-YOUR-GITHUB-USERNAME` (e.g. `lab00-cgaucho`) before proceeding.
+Be sure that you click the SSH button and that your URL starts with `git@github.com` and ends with `gsa01-YOUR-GITHUB-USERNAME` (e.g. `gsa01-cgaucho`) before proceeding.
 
 Next, copy the URL that starts with `git@github.com` from the box.  We are going to type `git clone` at the command line (still inside your `cs16` directory) and then paste this URL, so that command looks like this:
 
 ```
-$ git clone git@github.com:ucsb-cs16-f23/lab00-YOUR-GITHUB-USERNAME.git
+$ git clone git@github.com:ucsb-cs16-w24/gsa01-YOUR-GITHUB-USERNAME.git
 ```
 
 The first time you connect, you might see output like this (it may not look precisely the same, but similar):
@@ -208,24 +208,24 @@ Please answer `yes`, and after that you won't see this message again. (This adds
 After you do that, you should see output such as this:
 
 ```
-[pconrad@csilvm-03 cs16]$ git clone git@github.com:ucsb-cs16-f23/lab00-YOUR-GITHUB-ID
-Cloning into 'lab00-YOUR-GITHUB-ID'...
+[pconrad@csilvm-03 cs16]$ git clone git@github.com:ucsb-cs16-w24/gsa01-YOUR-GITHUB-ID
+Cloning into 'gsa01-YOUR-GITHUB-ID'...
 warning: You appear to have cloned an empty repository.
 ```
 
-You should now be able to type `ls` and see that inside your `cs16` directory, there is a directory called `lab00-YOUR-GITHUB-ID`.
+You should now be able to type `ls` and see that inside your `cs16` directory, there is a directory called `gsa01-YOUR-GITHUB-ID`.
 
 To move into this directory, please type:
 
 ```
-$ cd lab00-YOUR-GITHUB-ID
+$ cd gsa01-YOUR-GITHUB-ID
 ```
 
 Once you do, if you type `pwd`, you should see output such as this (but with your ECI account id in place of `chrisgaucho`, and your GitHub id in place of `cgaucho`):
 
 ```
 $ pwd
-/cs/student/chrisgaucho/cs16/lab00-cgaucho
+/cs/student/chrisgaucho/cs16/gsa01-cgaucho
 $ 
 ```
 
@@ -312,7 +312,7 @@ This animation illustrates quitting vim: once with `:wq` to save, and again with
 
 ## Pratice creating a file with vim
 
-If you want to practice creating a file in vim, you can do so in the `lab00-YOUR-USERNAME-HERE` directory.   You can remove files
+If you want to practice creating a file in vim, you can do so in the `gsa01-YOUR-USERNAME-HERE` directory.   You can remove files
 that you no longer want (e.g. ones you create for practice), with the `rm` command, e.g.
 
 ```
@@ -386,7 +386,7 @@ In addition, there is the [Vim Adventures Game](https://vim-adventures.com/) tha
 
 ## Step 10: Create and edit a file containing a C++ program
 
-Now, in your `lab00-YOUR-USERNAME-HERE` directory, please create a single C++ program, following the steps below.
+Now, in your `gsa01-YOUR-USERNAME-HERE` directory, please create a single C++ program, following the steps below.
 
 This assignment only needs you to write a program that prints out two lines on the display, and nothing else. <b>The output should look EXACTLY as follows</b> (no space before or after each line, except the 2 newlines):
 
@@ -489,7 +489,7 @@ This involves several steps, explained in the table below.  Try each step as you
 {:.table .table-sm .table-striped .table-bordered}
 
 Once you've gone through all of these steps, navigate to your repo on the web at this URL (but substituting in your userid in place of `YOUR-GITHUB-USERNAME`:
-* <https://github.com/ucsb-cs16-f23/lab00-YOUR-GITHUB-USERNAME>
+* <https://github.com/ucsb-cs16-w24/gsa01-YOUR-GITHUB-USERNAME>
 
 You should see a listing for the file `hello.cpp`, and if you click on it, you should see the entire contents of the file, something like this:
 
@@ -513,7 +513,7 @@ This brings up a long list of schools, as shown below.  Scroll down to `Universi
 
 Once you login, you should find that CMPSC 16 is one of your courses.  If not, please contact the staff for assistance.
 
-The lab assignment `lab00` should appear in your Gradescope dashboard. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files.
+The lab assignment `gsa01` should appear in your Gradescope dashboard. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files.
 
 You can do so in one of two ways:
 * You can directly upload your file `hello.cpp`
