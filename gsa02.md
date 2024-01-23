@@ -1,27 +1,28 @@
 ---
 layout: page
 title: GSA 02
+num: gsa02
 nav_order: 3
 desc: 'ASCII Art: Logical operators'
-starter_url: https://github.com/ucsb-cs16-f23/STARTER-lab01
-starter_remote: git@github.com:ucsb-cs16-f23/STARTER-lab01.git
+starter_url: https://github.com/ucsb-cs16-w24/STARTER-gsa02
+starter_remote: git@github.com:ucsb-cs16-w24/STARTER-gsa02.git
 ---
 
 # {{page.title}} - {{page.desc}}
 
 # Collaboration policy 
-* This lab must be completed individually
+* This assignment must be completed individually
 
 
 # Academic Honesty 
 
-* All work submitted for this lab should be your own. Do not use code posted on the internet. If you are using any hints from a previous offering of this course that was posted publicly by a CS16 instructor, you must cite your source.
+* All work submitted for this assignment should be your own. Do not use code posted on the internet. If you are using any hints from a previous offering of this course that was posted publicly by a CS16 instructor, you must cite your source.
 
-* You must use the starter code provided for the lab on the release date. Do not use ANY code from previous offerings of this course. Similarity with old versions of this assignment, including can be used as the basis for academic dishonesty.
+* You must use the starter code provided for the assignment on the release date. Do not use ANY code from previous offerings of this course. Similarity with old versions of this assignment, including can be used as the basis for academic dishonesty.
 
-# Goals for this lab
+# Goals for this assignment
 
-In this lab you will get practice with:
+In this assignment you will get practice with:
 * for loops and while loops
 * nested loops
 * functions
@@ -29,14 +30,14 @@ In this lab you will get practice with:
 
 ## Step 0: Log on to COE/CSIL/ECI account, cd into `cs16`
 
-Log into your CoE account on CSIL, open a terminal, and use `cd` to move into the `cs16` directory you created in a previous lab.
+Log into your CoE account on CSIL, open a terminal, and use `cd` to move into the `cs16` directory you created in a previous assignment.
 
 ## Step 1: Find your {{page.num}} repo on GitHub
 
 You should have an empty repo on GitHub under the name 
 <tt>{{page.num}}-YOUR-GITHUB-ID</tt>.
 
-Following the steps outlined in a previous lab, please use the SSH address to clone this repo, i.e.
+Following the steps outlined in a previous assignment, please use the SSH address to clone this repo, i.e.
 
 <tt>git clone git@github.com:{{site.github_org}}/{{page.num}}-YOUR-GITHUB-ID.git</tt>
 
@@ -53,7 +54,7 @@ what is happening:
 cd ..
 pwd
 ls
-cd lab01-YOUR-GITHUB-ID
+cd gsa02-YOUR-GITHUB-ID
 pwd
 ls
 ```
@@ -105,8 +106,8 @@ The `-v` here stands for `verbose`, and it means that the command will give lots
 
 
 <tt>$ git remote -v</tt><br />
-<tt>origin git@github.com:{{site.github_org}}/lab01-YOUR-GITHUB-ID.git (fetch)</tt><br/>
-<tt>origin	git@github.com:{{site.github_org}}/lab01-YOUR-GITHUB-ID.git (push)</tt><br/>
+<tt>origin git@github.com:{{site.github_org}}/gsa02-YOUR-GITHUB-ID.git (fetch)</tt><br/>
+<tt>origin	git@github.com:{{site.github_org}}/gsa02-YOUR-GITHUB-ID.git (push)</tt><br/>
 <tt>$ </tt><br />
 
 
@@ -115,7 +116,7 @@ Explanation:
 * The output above shows that you have one *remote* called `origin` and it shows the URL associated with that name `origin`.  
 * By convention, the name `origin` is used for the GitHub repo from which you cloned the current repo, i.e. the one that came after `git clone` in a previous step.
 
-What we are doing to do next is add a second remote, called `starter`.  From this remote, you'll be able to pull in some starter code; your lab solution will involve
+What we are doing to do next is add a second remote, called `starter`.  From this remote, you'll be able to pull in some starter code; your assignment solution will involve
 working with some of that starter code.
 
 The starter code lives in this repo, which you can visit in a web browser to look at the starter code:
@@ -131,16 +132,16 @@ To see if it worked, you can type the `git remote -v` command again. Output shou
 
 ```
 $ git remote -v
-origin	git@github.com:{{site.github_org}}/lab01-YOUR-GITHUB-ID.git (fetch)
-origin	git@github.com:{{site.github_org}}/lab01-YOUR-GITHUB-ID.git (push)
-starter	git@github.com:{{site.github_org}}/STARTER-lab01.git (fetch)
-starter	git@github.com:{{site.github_org}}/STARTER-lab01.git (push)
+origin	git@github.com:{{site.github_org}}/gsa02-YOUR-GITHUB-ID.git (fetch)
+origin	git@github.com:{{site.github_org}}/gsa02-YOUR-GITHUB-ID.git (push)
+starter	git@github.com:{{site.github_org}}/STARTER-gsa02.git (fetch)
+starter	git@github.com:{{site.github_org}}/STARTER-gsa02.git (push)
 $ 
 ```
 
 <tt>$ git remote -v</tt><br />
-<tt>origin git@github.com:{{site.github_org}}/lab01-YOUR-GITHUB-ID.git (fetch)</tt><br/>
-<tt>origin	git@github.com:{{site.github_org}}/lab01-YOUR-GITHUB-ID.git (push)</tt><br/>
+<tt>origin git@github.com:{{site.github_org}}/gsa02-YOUR-GITHUB-ID.git (fetch)</tt><br/>
+<tt>origin	git@github.com:{{site.github_org}}/gsa02-YOUR-GITHUB-ID.git (push)</tt><br/>
 <tt>starter {{page.starter_remote}} (fetch)</tt><br/>
 <tt>starter	{{page.starter_remote}} (push)</tt><br/>
 <tt>$ </tt><br />
@@ -176,7 +177,7 @@ remote: Counting objects: 100% (10/10), done.
 remote: Compressing objects: 100% (7/7), done.
 remote: Total 10 (delta 2), reused 7 (delta 2), pack-reused 0
 Unpacking objects: 100% (10/10), 2.45 KiB | 47.00 KiB/s, done.
-From github.com:ucsb-cs16-f23/STARTER-lab01
+From github.com:ucsb-cs16-w24/STARTER-gsa02
  * branch            main       -> FETCH_HEAD
  * [new branch]      main       -> starter/main
 $ls
@@ -201,9 +202,9 @@ Compressing objects: 100% (9/9), done.
 Writing objects: 100% (10/10), 3.90 KiB | 1.95 MiB/s, done.
 Total 10 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), done.
-To github.com:ucsb-cs16-f23/lab01-YOUR-GITHUB-ID.git
+To github.com:ucsb-cs16-w24/gsa02-YOUR-GITHUB-ID.git
  * [new branch]      main -> main
-[dimirza@csilvm-11 lab01_test]$ git status
+[dimirza@csilvm-11 gsa02_test]$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -215,7 +216,7 @@ With these files in place, you are ready to start coding.
 If you don't see those files, go back through the instructions and make sure you didn't miss a step. From here on after you complete each part of the assignment you should add, commit and push your changes to origin main. For instructions on how to do this, scroll down and read the section on "Commit your code to GitHub"
 
 
-## Solving the problems for this lab: ASCII Art <a name="asciiart"></a>
+## Solving the problems for this assignment: ASCII Art <a name="asciiart"></a>
 
 There was a time when laser printers either hadn't been invented yet, or were not yet widely available. Thus, the only kind of printer most folks had access to was something called a &quot;line printer&quot;, which printed only from left to right, top to bottom, and could only print the kinds of characters you find on a typewriter keyboard.
 
@@ -272,7 +273,7 @@ To test whether this function works, we can write a simple main that takes the c
 
 ## What you'll be doing <a name="yourgoal"></a>
 
-What you'll be doing in this lab is writing three similar functions: startT, starC and starX 
+What you'll be doing in this assignment is writing three similar functions: startT, starC and starX 
 
 *Sample values returned from starT*
 
@@ -361,7 +362,7 @@ Compile your starT.cpp to the execuatable star. Suppose we want your program to 
 $./starT 3 2
 ```
 
-In general the parameters to the startT program are width, followed by height. You should take this into consideration when writing your main function. To write the starT() function refer back to the description of starT earlier in this lab.   You can also run the program with arguments of -1 -1 to run the internal tests and see whether your implementation is correct.
+In general the parameters to the startT program are width, followed by height. You should take this into consideration when writing your main function. To write the starT() function refer back to the description of starT earlier in this assignment.   You can also run the program with arguments of -1 -1 to run the internal tests and see whether your implementation is correct.
 
 
 When you think you have a correct implementation, try submitting to the gradescope system.  You can submit just your starT.cpp program to see how far along you've gotten.
@@ -400,7 +401,7 @@ Usage: ./starT width height
 
 Next, write the starC program.   Follow the same basic procedure as for the starT.cpp program.
 
-To get started, look at the table near the top of this lab that shows correct output for the starC program, as well as looking at the test cases in the runTests() function of the starC.cpp file in your directory.
+To get started, look at the table near the top of this assignment that shows correct output for the starC program, as well as looking at the test cases in the runTests() function of the starC.cpp file in your directory.
 
 Note that you'll need to add some code to the main, but this time the rules are different.   The minimum width is 2, and the minimum height is 3&mdash;everything else returns a null string (except for the values -1 for width and -1 for height&mdash;when passed in combination, the tests should be run.)
 
@@ -437,7 +438,7 @@ And, if there is not exactly one parameter, there should be an appropriate "usag
 When you have a version that can pass its internal tests, try submitting it along with your `starT.cpp` and `starC.cpp` to gradescope.  
 If there are errors reported, fix them.
 
-When you have a clean build, you are nearly done with this lab.   I say "nearly" done, because you should take one last look over the grading rubric to see if there is anything you need to adjust before doing your final submit and calling it a day.
+When you have a clean build, you are nearly done with this assignment.   I say "nearly" done, because you should take one last look over the grading rubric to see if there is anything you need to adjust before doing your final submit and calling it a day.
 
 Note:
 You MUST make one final submission that includes ALL of your files.  For getting incremental feedback while working on the lab, it is fine to submit one at a time, but for GRADING purposes, your LAST submission (in time) must be a complete submission of EVERYTHING.   In the ideal case (for you), that submission is completely "green", i.e. all test cases pass, and you have a perfect score (at least from the standpoint of the points you are awarded for passing the test cases.)
