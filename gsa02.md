@@ -263,7 +263,7 @@ The following table shows various calls to this function, along with what the st
 The rule is that the L should have width at least 2, and height at least 2, otherwise the result is an empty string, and printing an empty string results in no output.
 
 
-![starL](starL.png){:height="400px"}
+![starL](gsa01/starL.png){:height="400px"}
 
 
 So, this is a fairly easy function to write. This will do the job, and is provided for you as an example of how functions like this should be written.
@@ -277,13 +277,13 @@ What you'll be doing in this assignment is writing three similar functions: star
 
 *Sample values returned from starT*
 
-![starT](starT.png){:height="400px"}
+![starT](gsa01/starT.png){:height="400px"}
 
 *Sample values returned from starC*
 
 starC renders the letters C, but requires a minimum width of 2, and a minimum height of 3.  Otherwise it returns an empty string.
 
-![starC](starC.png){:height="400px"}
+![starC](gsa01/starC.png){:height="400px"}
 
 
 *Sample values returned from starX*
