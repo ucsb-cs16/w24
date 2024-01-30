@@ -1,13 +1,12 @@
 ---
 layout: page
+num: gsa03
 title: GSA 03
 nav_order: 4
 ready: true
 desc: "Odds and primes: Fun with arrays and makefiles"
 assigned: 2023-02-16 13:00
 due: 2023-03-01 23:59
-lecture_reference: "Lecture on 02.16"
-lecture_code_link: https://github.com/ucsb-cs16-f23/LECTURES/tree/main/02.16 
 ---
 
 # {{page.title}} - {{page.desc}}
@@ -114,7 +113,7 @@ If you don't see those files, go back through the instructions and make sure you
 The files in your directory this week use separate compilation, 
 that is each program is not necessarily taking all of its code from a single `.cpp` source file.
 
-In [{{page.lecture_reference}}]({{page.lecture_code_link}}), we introduced the idea of separate compilation, 
+In lecture, we introduced the idea of separate compilation, 
 where your C++ program may be divided among multiple source files. 
 The following web page explains more about separate compilation, 
 dividing your program up among multiple C++ and .h files, and using a Makefile. 
