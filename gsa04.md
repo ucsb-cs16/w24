@@ -1,19 +1,20 @@
 ---
 layout: page
-title: GSA 05
+title: GSA 04
 nav_order: 6
 desc: "Array lists and dynamic arrays"
 assigned: 2023-02-23 13:00
 due: 2023-03-08 23:59
-prev_odds_and_primes_lab: lab02 
+prev_odds_and_primes_lab: gsa03 
+num: gsa04
 ---
 
 # {{page.title}} - {{page.desc}}
 
 
-## Goals of this lab
+## Goals of this assignment
 
-The goal of this lab is get more practice with iterating through arrays and dynamically allocating memory. Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
+The goal of this assignment is get more practice with iterating through arrays and dynamically allocating memory. Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
 
 # Step by Step Instructions
 
@@ -38,14 +39,14 @@ The starter code is in this repo:
 
 The URL for cloning this repo is this: <tt>git@github.com:{{site.github_org}}/STARTER-{{page.num}}.git</tt>
 
-Previous labs contain instruction for the process of:
+Previous assignments contain instruction for the process of:
 * Adding a `starter` remote for this repo
 * Pulling the code from that `starter` remote into your own repo.
 
 Please do those steps now, and then do a `git push origin main` to populate your own repo with the starter code.
 
 If you need help with these steps:
-* First consult previous labs for more detailed instructions.   
+* First consult previous assignments for more detailed instructions.   
 * Then, if you are still having trouble, ask the staff for help during discussion section or office hours.
 
 Once you've populated your repo, typing the `ls` command should show you the following files in your current directory
@@ -61,7 +62,7 @@ $
 
 ## Step 3: Reviewing the files and what your tasks are
 
-Here is a list of your tasks for this lab:
+Here is a list of your tasks for this assignment:
 
 ### Step 3a: Familiarize yourself with the big picture
 
@@ -75,7 +76,7 @@ There is only one file that you need to edit this week:
 
 ### Step 3b: Work on the array functions
 
-There are 9 functions you will need to write for this lab:
+There are 9 functions you will need to write for this assignment:
 
 * <code>indexOfMax</code>
 * <code>indexOfMin</code>
@@ -119,7 +120,7 @@ Each one has a set of tests which can be found under its corresponding heading w
 
 You should replace each function stub with the correct code for the function until all of the tests for each one pass. It is recommended that you work on the functions one at a time in the order that they are presented above. That is, get all the tests to pass for indexOfMax then indexOfMin and so on. When all the tests pass, move on to the next step. 
 
-**You must implement each function iteratively. For this lab, you CANNOT implement the function with recursion. Any recursive implementations will not receive credit for this lab and be flagged for possible plagarism.** (Note: if you are unaware what a recursive implementation entails, do not worry, we have not covered this technique in class yet. This lab should be completed using only using the techniques we learned in class.)
+**You must implement each function iteratively. For this assignment, you CANNOT implement the function with recursion. Any recursive implementations will not receive credit for this assignment and be flagged for possible plagarism.** (Note: if you are unaware what a recursive implementation entails, do not worry, we have not covered this technique in class yet. This assignment should be completed using only using the techniques we learned in class.)
 
 ## Step 4: Checking your work before submitting
 
@@ -255,7 +256,7 @@ Submit all the `.cpp` and `.h` files to this assignment on Gradescope via your g
 
 Commit and push the latest version of your code on github.
 
-**Graders will check your code to make sure it follows the coding style guidelines. Egregious violations to the coding style guidelines may be subject a score reduction for your lab grade.** If you are unsure whether your code exhibits good coding style, please ask a member of the course staff during lab.  
+**Graders will check your code to make sure it follows the coding style guidelines. Egregious violations to the coding style guidelines may be subject a score reduction for your assignment grade.** If you are unsure whether your code exhibits good coding style, please ask a member of the course staff during assignment.  
 
 ## An important word about academic honesty and the gradescope system
 
