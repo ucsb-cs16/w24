@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GSA 04
-nav_order: 6
+nav_order: 5
 desc: "Array lists and dynamic arrays"
 assigned: 2023-02-23 13:00
 due: 2023-03-08 23:59
