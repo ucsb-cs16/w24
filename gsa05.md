@@ -1,6 +1,7 @@
 ---
 layout: page
-title: GSA 04
+num: gsa05
+title: GSA 05
 nav_order: 5
 ready: true
 desc: "Fun with shapes: Pointers and Structs"
@@ -13,11 +14,11 @@ due: 2023-11-16 14:00
 
 # Collaboration policy
 
-This lab must be completed individually 
+This assignment must be completed individually 
 
-# Goals of this lab
+# Goals of this assignment
 
-The goal of this lab is to demonstrate how we can abstract "things" in the world
+The goal of this assignment is to demonstrate how we can abstract "things" in the world
 (such as geometric objects) into program contructs. 
 We also hope that you will get a lot more practice with using pointers, 
 passing pointers to functions and using pointers along with structs. Y
@@ -50,14 +51,14 @@ The starter code is in this repo:
 
 The URL for cloning this repo is this: <tt>git@github.com:{{site.github_org}}/STARTER-{{page.num}}.git</tt>
 
-Previous labs contain instruction for the process of:
+Previous assignments contain instruction for the process of:
 * Adding a `starter` remote for this repo
 * Pulling the code from that `starter` remote into your own repo.
 
 Please do those steps now, and then do a `git push origin main` to populate your own repo with the starter code.
 
 If you need help with these steps:
-* First consult previous labs for more detailed instructions.   
+* First consult previous assignments for more detailed instructions.   
 * Then, if you are still having trouble, ask the staff for help during discussion section or office hours.
 
 Once you've populated your repo, typing the `ls` command should show you the following files in your current directory
@@ -96,7 +97,7 @@ tests.  These are the same tests that run on Gradescope.
 
 Here's an overview of all of the files and their purpose:
 
-* utility.h/cpp : Implement any of your own functions that you will need to solve the problems in this lab
+* utility.h/cpp : Implement any of your own functions that you will need to solve the problems in this assignment
 * tddFuncs.h/cpp : Functions that you may use to test your code
 * shapes.h : Contains the declaration of two structs: Point and Box. These data structures will be used in other files e.g. shapeFuncs.h/cpp
 * shapeFuncs.h/cpp : Functions to compute metrics on geometric constructs such as points and boxes (see shapes.h)
@@ -111,9 +112,9 @@ Here are some further notes about the files that end in `Test.cpp`:
 
 The rationale behind this approach is that each function in `shapeFuncs.cpp` can be developed and tested independently as much as possible.
 
-## Tasks for this lab
+## Tasks for this assignment
 
-Here is a list of your tasks for this lab.  You will see that we are working on one function at a time, seeing the tests fail, then editing code to see the tests pass.
+Here is a list of your tasks for this assignment.  You will see that we are working on one function at a time, seeing the tests fail, then editing code to see the tests pass.
 
 ### (1) Get `distanceBetween` working
 
@@ -127,7 +128,7 @@ Here is a list of your tasks for this lab.  You will see that we are working on 
   -  For example: `git add shapeFuncs.cpp` 
   - `git commit -m "distanceBetween function is now passing tests"`  (the exact comment is up to you; this is a suggestion)
   - `git push origin main`
-* You should now be able to make a submission to Gradescope and see that you are getting at least partial credit for the lab (i.e. some of your tests are working.)  
+* You should now be able to make a submission to Gradescope and see that you are getting at least partial credit for the assignment (i.e. some of your tests are working.)  
 ### (2) Understand the `pointsApproxEqual` function
 
 * Run ./pointsApproxEqualTest and see it pass.
@@ -161,7 +162,7 @@ Now, as preparation for homework and exam questions, reason about why your code 
 * Your pointer diagram should show the value of member variables `x` and `y` of the struct object `p1` in `initPointTest.cpp` 
   as well as the relationship between `p1` and the formal parameter `p` of the function `initPoint`. 
 * You should also show the formal parameters `xVal` and `yVal` in memory and indicate whether or not they are colocated in memory with any other variables (such as `x` and `y`). 
-* This drawing is only for your own purposes; we are not grading it.  However, you are encouraged to make the drawing on a piece of paper and show it to one of the staff during lab section or office hours to get feedback on whether your understanding is correct.
+* This drawing is only for your own purposes; we are not grading it.  However, you are encouraged to make the drawing on a piece of paper and show it to one of the staff during assignment section or office hours to get feedback on whether your understanding is correct.
 
 
 ### (5) Get `boxesApproxEqual` working
