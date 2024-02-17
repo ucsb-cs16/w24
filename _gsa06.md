@@ -1,225 +1,226 @@
 ---
 layout: page
 title: GSA 06
+num: gsa06
 nav_order: 7
-desc: "Recursion"
+desc: "Linked Lists in C++ with structs"
 assigned: 2023-03-01 13:00
-due: 2023-03-17 23:59
+due: 2023-03-15 23:59
 ---
 
 # {{page.title}} - {{page.desc}}
 
-## Goals of this lab
+## Goals for this assignment
 
-The goal of this lab is get more practice with recursion, linked-lists, and string functions. 
+The goal of this assignment is practice iterating through linked lists and solving problems. Continue to practice code tracing to reason about your code. 
 
-To prepare you for the final exam, this lab will ask you to implement functions that may appear difficult. Do not panic! 
+We request that you DO NOT ask the staff to debug your code for you. They have been specifically instructed not to debug *for* you, but rather to *guide you* through the process of debugging your code yourselves.
 
-First, refer to this following problem solving guide and follow the guidelines to help you solve complex problems:
+# Step by Step Instructions
 
-* <https://ucsb-cs16.github.io/w23/assets/pdfs/alexmei-problem-solving.pdf>. 
+## Step 1: Getting Ready
 
-If you need more assistance, the course staff is happy to provide you additional support on Piazza, in section, and during office hours.
-
-Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process. 
-
-Do not refer the starter code from previous offerings of this course as this version is new. Remember that code that is not written by you (even if it from starter code from a previous offering) is in violation of the academic honesty for this class.
-
-# Step by Step Instructions!
-
-## Step 1: Getting Started
-
-1. Go to github and find a repo for this lab assigned to your GitHub id.
+1. Go to github and find a repo for this assignment assigned to your GitHub id.
 2. Log on to your CSIL account.
 3. Change into your `~/cs16` directory
-4. Clone your empty {{page.num}} repo into your `~/cs16` directory.
+4. Clone your empty assignment06 repo into your `~/cs16` directory.
 5. In your empty repo, do `git checkout -b main` to establish that you are on the `main` branch as your default branch.
 
-Note: Remember to push your work to github at the end of EVERY work session. That way, you will not accidentally lose your code.
 
-## Step 2: Starter Code
+## Step 2: Obtain the starter code
+
+The starter code is in this repo:
 
 * <https://github.com/{{site.github_org}}/STARTER-{{page.num}}>
 
-The URL for cloning this repo is this:
+The URL for cloning this repo is this: 
 
-*  <tt>git@github.com:{{site.github_org}}/STARTER-{{page.num}}.git</tt>
+* <tt>git@github.com:{{site.github_org}}/STARTER-{{page.num}}.git</tt>
 
-Previous labs contain instruction for the process of:
+Previous assignments contain instruction for the process of:
 * Adding a `starter` remote for this repo
 * Pulling the code from that `starter` remote into your own repo.
 
 Please do those steps now, and then do a `git push origin main` to populate your own repo with the starter code.
 
 If you need help with these steps:
-* First consult previous labs for more detailed instructions.   
+* First consult previous assignments for more detailed instructions.   
 * Then, if you are still having trouble, ask the staff for help during discussion section or office hours.
 
-Once you've populated your repo, typing the `ls` command should show you the following files in your current directory.
+Once you've populated your repo, typing the `ls` command should show you the following files in your current directory
 
 ```
 $ ls
-deleteKthNodeTest.cpp   linkedListFuncs.cpp  removeKFromFrontTest.cpp  strTest.cpp
-elementwiseSumTest.cpp  linkedListFuncs.h    spliceTest.cpp            sumTest.cpp
-findKthNodeTest.cpp     Makefile             strFuncs.cpp              tddFuncs.cpp
-largestValueTest.cpp    README.md            strFuncs.h                tddFuncs.h
+Makefile              linkedListFuncs.h	       tddFuncs.cpp
+README.md             llTests.cpp		           tddFuncs.h
+linkedList.h          moreLinkedListFuncs.cpp
+linkedListFuncs.cpp	  moreLinkedListFuncs.h
 ```
 
-## Step 3: Review the Files
+## Step 3: Reviewing the files and what your tasks are
 
-Here is a list of your tasks for this lab:
+Here is a list of your tasks for this assignment:
 
-### Step 3a: Look at the Big Picture
+### Step 3a: Familiarize yourself with the big picture
 
-Type "make tests" and you will see some tests pass, but some fail. 
+Type "make tests" and you will see some tests pass, but some fail.
 
-You are finished when all the tests pass. You will need to edit two files: <code>linkedListFuncs.cpp</code> and <code>strFuncs.cpp</code>
+You are finished when all the tests pass. We have implemented a few function that involve linked lists in `linkedListFuncs.cpp`. There is only one file you need to edit this week:
 
-Please note that this lab may be more difficult than the previous labs you have worked on. We encourage you to ask questions publicly on Piazza (so your classmates can be of assistance) and attend office hours for 1:1 assistance.
+<code>moreLinkedListFuncs.cpp</code> contains more functions that deal with linked lists.  
 
-### Step 3b: String and Linked List and Functions
 
-Please note that all of these functions **must** be written recursively. You will not get credit if you implement them iteratively.
-There are 8 functions you will need to write for this lab, one of which is a bonus:
+### Step 3b: Work on the linked list functions
 
-In strFuncs.cpp:
-- **[10 points] isPalindrome()**
-  - Recursively check if a string is a palindrome
-  - A palindrome is a word or phrase that reads the same backwards & forwards 
-  - Palindromes **are not** case-sensitive - disregard spaces as well
-  - Examples
-    - *Noel sees Leon* reads *noeL sees leoN* backwards, and as we disregard spaces and capitalization, it is a palindrome
-    - *HelloN* reads *olleH* and is not a palindrome
-    
-In linkedListFuncs.cpp:
-- **[10 points] recursiveSum()**
-   - Recursively calculate the sum of a linked list
-   - Given a head node, return the sum of the linked list
-   - Example
-      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        - recursiveSum(list) = 9
+Working on the linked list functions below is one of the most important things you can do to prepare for the final exam.
 
-- **[10 points] recursiveLargestValue()**
-   - Recursively find the largest value in a linked list
-   - Given a head node, return the largest value in the linked list
-   - Example
-      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        - recursiveLargestValue(list) = 4
+There are 7 functions you will need to write for this assignment:
 
-- **[10 points] recursiveFindKthNode()**
-  - Recursively find the kth Node of a linked list
-  - Given a head node and integer k, return the address of the kth node
-    - You do not know whether the linked-list contains k or more nodes; if k is greater than the length of the linked-list, return NULL
-    - Example: 
-      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        - recursiveFindKthNode(list, 1) = 2
-        - recursiveFindKthNode(list, 3) = 4
-        - recursiveFindKthNode(list, 4) = NULL
+* <code>addIntToEndOfList</code>
+* <code>addIntToStartOfList</code>
+* <code>pointerToMax</code>
+* <code>pointerToMin</code>
+* <code>largestValue</code>
+* <code>smallestValue</code>
+* <code>sum</code>
 
-- **[10 points] recursiveDeleteKthNode()**
-  - Recursively delete the kth node from a linked list 
-  - Given the head of a linked list, delete the kth node from the linked list
-    - k will always be less than or equal to the length of the linked list
-    - Return NULL if there are no nodes left after deleting.
-  - Example: 
-      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        - recursiveDeleteKthNode(list, 2) = 2 &rarr; 4
-        - recursiveDeleteKthNode(list, 1) = 3 &rarr; 4
-        - recursiveDeleteKthNode(list, 4) = 2 &rarr; 3
 
-- **[10 points] recursiveRemoveKFromFront()**
-  - Recursively delete k nodes from a linked list
-  - Given the head of a linked list, delete the first k nodes from the linked list
-    - k will always be less than or equal to the length of the linked list
-    - Return NULL if there are no nodes left after deleting.
-  - Example: 
-      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        - recursiveRemoveKFromFront(list, 2) = 4
-        - recursiveRemoveKFromFront(list, 1) = 3 &rarr; 4
-
-- **[10 points] recursiveElementwiseSum()**
-  - Recursively find the elementwise sum of two linked lists
-  - Given two head nodes, return the head of a **new** linked-list where each element is the sum of the corresponding element of the other two
-    - if one linked-list is shorter, fill the rest of the result with elements from the other (i.e., treat the non-existent nodes as a value of zero)
-    - Do **NOT** change the values of the original linked list - you must make a new one
-    - Examples
-      - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 
-        - Output: 6 &rarr; 8 &rarr; 10 &rarr; 4 
-
-- **recursiveSplice()**
-  - Doing this problem is optional
-  - Recursively splice together two linked lists
-  - Given two linked lists, splice the two linked lists together
-    - Splice two linked lists by interweaving the nodes - the second linked list's nodes should be inserted at alternating positions into the first linked list
-    - If the size of the two linked lists differ, after successfully splicing, finish the combined linked list with the remaining elements of the larger linked list
-   - Examples
-      - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 &rarr; 8 
-        - Output: 1 &rarr; 5 &rarr; 2 &rarr; 6 &rarr; 3 &rarr; 7 &rarr; 4 &rarr; 8
-
-      - Linked List 1: 1 &rarr; 2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 3 &rarr; 4 &rarr; 5 &rarr; 6
-        - Output: 1 &rarr; 3 &rarr; 2 &rarr; 4 &rarr; 5 &rarr; 6 
-        
-  - You CANNOT create another linked list - doing so will fail both the local tests and Gradescope tests. Instead, splice the lists together by rearranging the *next* pointers of each linked list. You are allowed to declare additional nodes, but the returned linked list should only contain nodes from each linked list, in some order. 
-  
-Each one has a set of tests which can be found under its corresponding heading when you type <code>make tests</code>. For example, the recursiveRemoveKNodesFromFront tests look like this to start: 
+Each one has a set of tests which can be found under its corresponding heading when you type <code>make tests</code>. For example, the addIntToEndOfList tests look like this to start: 
 
 ```
 ./llTests 1
---------------REMOVE_K_NODES_FROM_THE_FRONT_OF_THE_LIST--------------
-   FAILED: Remove 3 from front of 1->2->3->4->5
-     Expected: 4 5  Actual:
+--------------ADD_INT_TO_END_OF_LIST--------------
+PASSED: linkedListToString(list)
+   FAILED: linkedListToString(list)
+     Expected: [42]->[57]->[61]->[12]->null Actual: [42]->[57]->[61]->null
+   FAILED: linkedListToString(list)
+     Expected: [42]->[57]->[61]->[12]->[-17]->null Actual: [42]->[57]->[61]->null
+PASSED: linkedListToString(empty)
+   FAILED: linkedListToString(empty)
+     Expected: [0]->null Actual: null
+   FAILED: linkedListToString(empty)
+     Expected: [0]->[19]->null Actual: null
+
 ```
 
-You should replace each function stub with the correct code for the function until all of the tests for each one pass. It is recommended that you work on the functions one at a time in the order that they are presented above. That is, get all the tests to pass for isPalindrome then recursiveSum and so on. When all the tests pass, move on to the next step. **Note that the test cases provided to you in the lab are not comprehensive. Think about possible edge cases that is breaking your code.**
+You should replace each function stub with the correct code for the function until all of the tests for each one pass. It is recommended that you work on the functions one at a time in the order that they are presented above. That is, get all the tests to pass for addIntToStartOfList then addIntToEndOfList and so on. When all the tests pass, move on to the next step. 
 
-## Step 4: Check Your Work
+## Step 4: Checking your work before submitting
 
-When you are finished, you should be able to type  <code>make clean</code> and then <code>make tests</code> and see all of the tests pass.
-
-At that point, you are ready to try submitting on gradescope. 
+When you are finished, you should be able to type  <code>make clean</code> and then <code>make tests</code> and see the following output:
 
 
-## Step 5: Submitting on Gradescope
+```
+-bash-4.2$ make clean
+/bin/rm -f llTests *.o
+-bash-4.2$ make tests
+g++ -Wall -Wno-uninitialized   -c -o llTests.o llTests.cpp
+g++ -Wall -Wno-uninitialized   -c -o linkedListFuncs.o linkedListFuncs.cpp
+g++ -Wall -Wno-uninitialized   -c -o moreLinkedListFuncs.o moreLinkedListFuncs.cpp
+g++ -Wall -Wno-uninitialized   -c -o tddFuncs.o tddFuncs.cpp
+g++ -Wall -Wno-uninitialized  llTests.o linkedListFuncs.o moreLinkedListFuncs.o tddFuncs.o -o llTests
+./llTests 1
+--------------ADD_INT_TO_END_OF_LIST--------------
+PASSED: linkedListToString(list)
+PASSED: linkedListToString(list)
+PASSED: linkedListToString(list)
+PASSED: linkedListToString(empty)
+PASSED: linkedListToString(empty)
+PASSED: linkedListToString(empty)
+./llTests 2
+--------------ADD_INT_TO_START_OF_LIST--------------
+PASSED: linkedListToString(list)
+PASSED: linkedListToString(list)
+PASSED: linkedListToString(list)
+PASSED: linkedListToString(empty)
+PASSED: linkedListToString(empty)
+PASSED: linkedListToString(empty)
+./llTests 3
+--------------POINTER_TO_MAX--------------
+PASSED: pointerToMax(list1)
+PASSED: pointerToMax(list1)
+PASSED: pointerToMax(list1)->data
+PASSED: pointerToMax(list1)->next->data
+PASSED: pointerToMax(list2)
+PASSED: pointerToMax(list2)
+PASSED: pointerToMax(list2)->data
+PASSED: pointerToMax(list3)
+PASSED: pointerToMax(list3)
+PASSED: pointerToMax(list3)->data
+PASSED: pointerToMax(list4)
+PASSED: pointerToMax(list4)
+PASSED: pointerToMax(list4)->data
+PASSED: pointerToMax(list4)->next->data
+./llTests 4
+--------------POINTER_TO_MIN--------------
+PASSED: pointerToMin(list1)
+PASSED: pointerToMin(list1)
+PASSED: pointerToMin(list1)->data
+PASSED: pointerToMin(list1)->next->data
+PASSED: pointerToMin(list2)
+PASSED: pointerToMin(list2)
+PASSED: pointerToMin(list2)->data
+PASSED: pointerToMin(list3)
+PASSED: pointerToMin(list3)
+PASSED: pointerToMin(list3)->data
+PASSED: pointerToMin(list4)
+PASSED: pointerToMin(list4)
+PASSED: pointerToMin(list4)->data
+PASSED: pointerToMin(list4)->next->data
+./llTests 5
+--------------LARGEST_VALUE--------------
+PASSED: largestValue(list1)
+PASSED: largestValue(list2)
+PASSED: largestValue(list3)
+PASSED: largestValue(list4)
+./llTests 6
+--------------SMALLEST_VALUE--------------
+PASSED: smallestValue(list1)
+PASSED: smallestValue(list2)
+PASSED: smallestValue(list3)
+PASSED: smallestValue(list4)
+./llTests 7
+--------------SUM--------------
+PASSED: sum(list1)
+PASSED: sum(list2)
+PASSED: sum(list3)
+PASSED: sum(list4)
 
-Submit the `strFuncs.cpp` and `linkedListFuncs.cpp` files on gradescope. 
+-bash-4.2$
+```
 
-**If your code does not pass the Gradescope tests, think about possible edge cases that is breaking your code.**
-
-# Grading Rubric
-
-Most of the points will be awarded based on gradescope automatic grading. Other points will be assigned after visual code inspection by TAs - if a function is not implemented recursively, you will receive **NOT** receive any credit for that function at all.
-
-## Gradescope Autograder
-
-<table border="1">
-<tr><th>Test Name</th><th>Value</th></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">isPalindrome()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveSum()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveLargestValue()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveFindKthNode()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveDeleteKthNode()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveRemoveKFromFront()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveElementwiseSum()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveSplice()</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">Git Etiquette</p></td><td>[10 pts]</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">Make</p></td><td>[10 pts]</td></tr>
-</table>
+At that point, you are ready to try submitting on Gradescope.
 
 
-## Academic Honesty
+## Step 5: Turn in your code on Gradescope
 
-We will test your code against other data files too&mdash;not just these. So while you might be able to pass the tests on gradescope now by just doing a hard-coded "cout" of the expected output, that will NOT receive credit.    
+Submit all the .cpp and .h files to the assignment on Gradescope called {{page.num}} via your github repo. Then visit Gradescope and check that you have a correct score.
 
-To be very clear, code like this will pass on gradescope, but represents a form of academic dishonesty since it is an attempt to just "game the system", i.e. to get the tests to pass without really solving the problem.
+* You must check that you have followed these style guidelines:
 
-I would hope this would be obvious, but I have to say it so that there is no ambiguity: hard coding your output is a form of cheating, i.e. a form of "academic dishonesty".  Submitting a program of this kind would be subject not only to a reduced grade, but to possible disciplinary penalties.    If there is <em>any</em> doubt about this fact, please ask your TA and/or your instructor for clarification.
+1. Indentation is neat, consistent and follows good practice (see below)
+2. Variable name choice: variables should have sensible names.
+	More on indentation: Your code should be indented neatly. Code that is inside braces should be indented, and code that is at the same "level" of nesting inside braces should be indented in a consistent way. Follow the examples from lecture, the sample code, and from the textbook.   
+3. Practice the DRY (Don't Repeat Yourself) principle. Once you have finished implementing your code, try to find areas that are repetitive or redundant and spend some time to optimize. 
 
-And, as usual, all code you submit must be written and thought of by you. Referring to online homework answer services is definitely a form of academic dishonesty and will be reported. Do not jeopardize your academic career over one assignment. Please reach out on Piazza and come to section or office hours if you need help.
+Commit and push the latest version of your code on github.
 
-## Logging Out
+**Graders will check your code to make sure it follows the coding style guidelines. Egregious violations to the coding style guidelines may be subject a score reduction for your assignment grade.** If you are unsure whether your code exhibits good coding style, please ask a member of the course staff during assignment.  
+
+## An important word about academic honesty and the gradescope system
+
+We will test your code against other data files too&mdash;not just these.  So while you might be able to pass the tests on gradescope now by just doing a hard-coded "cout" of the expected output, that will NOT receive credit.    
+
+To be very clear, code like this will pass on gradescope, BUT REPRESENTS A FORM OF ACADEMIC DISHONESTY since it is an attempt to just "game the system", i.e. to get the tests to pass without really solving the problem.
+
+I would hope this would be obvious, but I have to say it so that there is no ambiguity: hard coding your output is a form of cheating, i.e. a form of "academic dishonesty".  Submitting a program of this kind would be subject not only to a reduced grade, but to possible disciplinary penalties. If there is <em>any</em> doubt about this fact, please ask your TA and/or your instructor for clarification.
+
+## Logging out
 
 If you are logged in remotely, you can log out using the exit command:
 
 ```
 $ exit
 ```
+
+
