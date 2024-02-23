@@ -1,6 +1,7 @@
 ---
 layout: page
 title: GSA 08
+num: gsa08
 nav_order: 9
 desc: "Basic Classes in C++"
 assigned: 2023-02-23 13:00
@@ -10,9 +11,9 @@ due: 2023-03-08 23:59
 # {{page.title}} - {{page.desc}}
 
 
-## Goals for this lab
+## Goals for this assignment
 
-By the time you have completed this lab, you should be able to
+By the time you have completed this assignment, you should be able to
 
 * Add a new method to declaration of a simple C++ class
 * Add implementation of a new method to a simple C++ class definition
@@ -24,7 +25,7 @@ By the time you have completed this lab, you should be able to
 
 ## Step 1: Getting Ready
 
-1. Go to github and find a repo for this lab assigned to your GitHub id.
+1. Go to github and find a repo for this assignment assigned to your GitHub id.
 
 2. Log on to your CSIL account.
 
@@ -43,14 +44,14 @@ The starter code is in this repo:
 
 The URL for cloning this repo is this: `git@github.com:{{site.github_org}}/STARTER-{{page.num}}.git`
 
-Previous labs contain instruction for the process of:
+Previous assignments contain instruction for the process of:
 * Adding a `starter` remote for this repo
 * Pulling the code from that `starter` remote into your own repo.
 
 Please do those steps now, and then do a `git push origin main` to populate your own repo with the starter code.
 
 If you need help with these steps:
-* First consult previous labs for more detailed instructions.   
+* First consult previous assignments for more detailed instructions.   
 * Then, if you are still having trouble, ask the staff for help during discussion section or office hours.
 
 Once you've populated your repo, typing the `ls` command should show you the following files in your current directory
@@ -65,7 +66,7 @@ $
 
 ## Step 3: Study a non-OO program
 
-In the rest of this lab, you will finish writing a C++ program that uses an object-oriented (OO) approach to solve exactly the same problems that are solved by rugfit1.cpp - but first study this program to understand the problems and their non-OO solutions:
+In the rest of this assignment, you will finish writing a C++ program that uses an object-oriented (OO) approach to solve exactly the same problems that are solved by rugfit1.cpp - but first study this program to understand the problems and their non-OO solutions:
 
 * After including the standard C++ input-output library, a utility function is defined for calculating the area of a rectangle. All other work is done inside the main function.
 * All variables are declared at the beginning of main.
@@ -150,7 +151,7 @@ If you forgot to do so, be sure to follow the steps in section 1d (above) to upl
 
 ## Step 8: Submit your code to gradescope
 
-Go to our class site on [www.gradescope.com](www.gradescope.com). Navigate to the assignment for this lab and submit your code via github.
+Go to our class site on [www.gradescope.com](www.gradescope.com). Navigate to the assignment for this assignment and submit your code via github.
 
-You should see a score of 100/100 for this lab.
+You should see a score of 100/100 for this assignment.
 
