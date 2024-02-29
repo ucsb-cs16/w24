@@ -16,16 +16,6 @@ The goal of this assignment is get more practice with recursion, linked-lists, a
 
 To prepare you for the final exam, this assignment will ask you to implement functions that may appear difficult. Do not panic! 
 
-First, refer to this following problem solving guide and follow the guidelines to help you solve complex problems:
-
-* <https://ucsb-cs16.github.io/w23/assets/pdfs/alexmei-problem-solving.pdf>. 
-
-If you need more assistance, the course staff is happy to provide you additional support on Piazza, in section, and during office hours.
-
-Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process. 
-
-Do not refer the starter code from previous offerings of this course as this version is new. Remember that code that is not written by you (even if it from starter code from a previous offering) is in violation of the academic honesty for this class.
-
 # Step by Step Instructions!
 
 ## Step 1: Getting Started
