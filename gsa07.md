@@ -116,7 +116,7 @@ In linkedListFuncs.cpp:
       - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         - recursiveDeleteKthNode(list, 2) = 2 &rarr; 4
         - recursiveDeleteKthNode(list, 1) = 3 &rarr; 4
-        - recursiveDeleteKthNode(list, 4) = 2 &rarr; 3
+        - recursiveDeleteKthNode(list, 3) = 2 &rarr; 3
 
 - **[10 points] recursiveRemoveKFromFront()**
   - Recursively delete k nodes from a linked list
